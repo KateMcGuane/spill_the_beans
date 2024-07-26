@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-As a **site user** I can **capability** so that **received benefit**
+As a **Site User** I can **capability** so that **received benefit**
 
 - Acceptance Criteria 1
 - Acceptance Criteria 2
