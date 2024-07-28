@@ -91,7 +91,8 @@ DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
-# Allows development & production(Heroku) server to add blog post from admin panel
+# Allows development & production (Heroku) server to add blog post from admin panel
+# Ensures only requested allowed are ones from hosts in list below
 CSRF_TRUSTED_ORIGINS = [
     "https://*8000-katemcguane-spillthebea-gkfuotnswlz.ws.codeinstitute-ide.net",
     "https://*.herokuapp.com"
