@@ -1,6 +1,5 @@
 from django.contrib import admin
-from .models import Post  # . indicating directory of models(same as admin.py)
-from .models import Comment
+from .models import Post, Comment  # . indicating directory of models (same as admin.py); Can insert multiple models
 
 
 # Register your models here.
