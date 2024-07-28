@@ -13,3 +13,4 @@ class Post(models.Model):
     content = models.TextField()  # multi-line textarea input
     created_on = models.DateTimeField(auto_now_add=True)  # computer's time on save
     status = models.IntegerField(choices=STATUS, default=0)
+    excerpt = models.TextField(blank=True)  # validation will allow entry of an empty value
