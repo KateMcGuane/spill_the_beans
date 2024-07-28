@@ -1,7 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
 STATUS = ((0, "Draft"), (1, "Published"))  # puts limit on status; human-readable vs integers
+
 
 # Create your models here.
 class Post(models.Model):
@@ -15,3 +17,15 @@ class Post(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
     excerpt = models.TextField(blank=True)  # validation will allow entry of an empty value
     updated_on = models.DateTimeField(auto_now=True)
+
+
+class Comment(models.Model):
+    post = models.ForeignKey(
+    Post, on_delete=models.CASCADE, related_name="comments"
+    )
+    author = models.ForeignKey(
+    User, on_delete=models.CASCADE, related_name="comments"
+    )
+    body = models.TextField()
+    approved = models.BooleanField(default=False)
+    created_on = models.DateTimeField(auto_now_add=True)
