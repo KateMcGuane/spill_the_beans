@@ -1,4 +1,4 @@
-# *Spill The Beans* :coffee:
+# :coffee: *Spill The Beans* :coffee:
 
 Spill The Beans is a ficticious coffee blog. It is the ultimate online destination for coffee enthusiasts, connoisseurs, and casual sippers alike. Whether you're a seasoned barista, a home-brewing hobbyist, or someone just starting their coffee journey, our blog offers something for everyone who loves the rich, aromatic world of coffee.
 
@@ -8,9 +8,24 @@ Spill The Beans is a ficticious coffee blog. It is the ultimate online destinati
 
 ---
 
+## UX Design
+
 ---
 
+## Features
 
+---
+
+## Technologies Used
+
+---
+
+## Deployment, Forking & Cloning
+
+---
+
+## Manual Testing
+Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
 ---
 
