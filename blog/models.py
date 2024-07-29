@@ -18,6 +18,13 @@ class Post(models.Model):
     excerpt = models.TextField(blank=True)  # validation will allow entry of an empty value
     updated_on = models.DateTimeField(auto_now=True)
 
+    # The - prefix on created_on indicates the posts are displayed in descending order of creation date.
+    class Meta:
+        ordering = ["-created_on"]
+        
+    #  __str__() method has changed this post identifier to a string literal
+    def __str__(self):
+        return f"{self.title} | written by {self.author}"
 
 class Comment(models.Model):
     post = models.ForeignKey(
