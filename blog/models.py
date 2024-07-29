@@ -10,7 +10,7 @@ class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)  # generates single line form
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(
-    User, on_delete=models.CASCADE, related_name="blog_posts"
+        User, on_delete=models.CASCADE, related_name="blog_posts"
     )
     content = models.TextField()  # multi-line textarea input
     created_on = models.DateTimeField(auto_now_add=True)  # computer's time on save
@@ -21,10 +21,10 @@ class Post(models.Model):
 
 class Comment(models.Model):
     post = models.ForeignKey(
-    Post, on_delete=models.CASCADE, related_name="comments"
+        Post, on_delete=models.CASCADE, related_name="comments"
     )
     author = models.ForeignKey(
-    User, on_delete=models.CASCADE, related_name="comments"
+        User, on_delete=models.CASCADE, related_name="comments"
     )
     body = models.TextField()
     approved = models.BooleanField(default=False)
