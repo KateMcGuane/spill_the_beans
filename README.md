@@ -49,8 +49,8 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   #### External Resources
 
   - User profiles & the content they posted & commented were taken from [Artemis Blog](https://artemis.coffee/blog/history-of-coffee-top-5-most-influential-people/).
-  - Dalgona coffee recipe extracted from [Trader Joe's](https://www.traderjoes.com/home/recipes/dalgona-coffee).
-  
+  - Dalgona coffee recipe extract from [Trader Joe's](https://www.traderjoes.com/home/recipes/dalgona-coffee).
+  - "What is Coffee?" article extract from [National Coffee Association USA Website](https://www.ncausa.org/About-Coffee/What-is-Coffee).
 
 
   ### Code
