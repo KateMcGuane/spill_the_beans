@@ -1,1 +1,1 @@
-console.log("Hello, hello. Your JavaScript is working!")
+console.log("Urika, it works!");
