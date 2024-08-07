@@ -1,1 +1,1 @@
-console.log("Urika, it works!");
+console.log("Eurika, it works!");
