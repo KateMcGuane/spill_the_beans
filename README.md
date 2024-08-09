@@ -15,7 +15,7 @@ Spill The Beans is a ficticious coffee blog. It is the ultimate online destinati
 ### Typography
 
 ### Imagery
-- ![Coffee Beans](https://unsplash.com/s/photos/coffee-beans?license=free)
+- ![Default](https://unsplash.com/s/photos/coffee-beans?license=free)
 
 ### Favicon
 
