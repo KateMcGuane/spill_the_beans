@@ -19,7 +19,6 @@ def post_detail(request, slug):
 
     **Context**
     ``post``
-
         An instance of :model:`blog.Post`.
 
     **Template:**
@@ -36,5 +35,7 @@ def post_detail(request, slug):
     return render(
         request,
         "blog/post_detail.html",
-        {"post": post},
+        # Context dictionary
+        {"post": post,
+        "coder": "kate McGuane"}
     )
