@@ -135,10 +135,12 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   | | | "The Story of Coffee: How I Discovered the Magic Beans" |
   | | | "The Ultimate Guide to Coffee Brewing Methods: Finding Your Perfect Cup" |
   | | [National Coffee Association USA Website](https://www.ncausa.org/About-Coffee/What-is-Coffee) | "What is Coffee?" | 
-  | Recipes | [BBC Good Food](https://www.bbcgoodfood.com/recipes/coffee-cake) | "Coffee Cake" |
+  | Recipe | [BBC Good Food](https://www.bbcgoodfood.com/recipes/coffee-cake) | "Coffee Cake" |
   | | [BBC Good Food](https://www.bbcgoodfood.com/recipes/coffee-cocktails) | "The Ultimate Coffee Cocktail" |
   | | [ChatGPT](https://chat.openai.com/) | "The Dalgona Coffee Craze: How to Make This Frothy Delight at Home" |
   | | [SuperValu](https://supervalu.ie/recipes/classic-irish-coffee) | "Classic Irish Coffee" |
+
+  All external references used in this project are for educational purposes only. Any ownership of referenced materials belongs solely to the parties accredited above, or where otherwise stated by said parties. 
 
 
   
