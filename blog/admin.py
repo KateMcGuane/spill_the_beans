@@ -4,7 +4,7 @@ from django_summernote.admin import SummernoteModelAdmin
 
 
 #  Registering a class with a decorator is more Pythonic & allows us to 
-#  customise how the models we are registering will appear on the admin site.
+#  Customise how the models we are registering will appear on the admin site.
 @admin.register(Post)
 class PostAdmin(SummernoteModelAdmin):
 
