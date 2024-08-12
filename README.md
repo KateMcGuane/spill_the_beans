@@ -54,6 +54,8 @@ The target audience for this coffee blog is for those who is passionate about co
 #### Page2
 #### Page3
 
+### Database Design: Entity-Relationship Diagram (ERD)
+
 ---
 
 ## Features
@@ -91,10 +93,12 @@ The target audience for this coffee blog is for those who is passionate about co
   - [Favicon.io](https://favicon.io/favicon-converter/) - To convert favicon image into suitable sizes.
   - [GitHub](https://github.com/) - To store associated files & developments of the website.
   - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - For troubleshooting and testing features, styling and responsiveness.
-  - [Raw Pixel](https://www.rawpixel.com/) - For images.
-  - [Unsplash](https://unsplash.com/) - For images.
   - [VS Code](https://code.visualstudio.com/) - IDE via Github.
 
+ ### Web-Based Services
+  - [Lucid Chart](https://www.lucidchart.com/pages/) - To create Entity-Relationship Diagram.
+  - [Raw Pixel](https://www.rawpixel.com/) - For images.
+  - [Unsplash](https://unsplash.com/) - For images.
 
 ---
 
@@ -142,7 +146,6 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   | | [SuperValu](https://supervalu.ie/recipes/classic-irish-coffee) | "Classic Irish Coffee" |
 
   All external references used in this project are for educational purposes only. Any ownership of referenced materials belongs solely to the parties accredited above, or where otherwise stated by said parties. 
-
 
   
   ####  Media
