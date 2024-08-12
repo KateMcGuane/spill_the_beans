@@ -6,6 +6,35 @@ Spill The Beans is a ficticious coffee blog. It is the ultimate online destinati
 
 ## User Experience
 
+### Target Audience
+The target audience for this coffee blog is for those who is passionate about coffee and eager to deepen their knowledge. It appeals to a variety of people who have different levels of interest, knowledge or skills. The blog aims to enrich readers' understanding of coffee and foster a community of like-minded individuals who share this interest.
+
+
+### User Stories
+
+  #### First Time Visitor
+  As a first time visitor I want to:
+  - easily understand what the blog is about, so that I can quickly decide if the content is relevant to me.
+  - navigate the site with ease.
+  - register an account.
+  - learn more about coffee.
+
+  #### Return Visitor
+  As a return visitor I want to:
+  - quickly find new content since my last visit, so that I can stay up-to-date with the blog.
+  - easily filter blog posts to find articles I've not yet read.
+  - comment on existing blog entries.
+  - intuitive submission process, so that I can easily contribute to the website with a blog entry of my own.
+  - connect with other users of the blog site via social media.
+
+  #### Admin
+  As admin I want to:
+  - enhance user experience.
+  - grow and engage the audience.
+  - screen all blog entries and comments before publication.
+  - ensure community guidelines.
+
+
 ---
 
 ## UX Design
@@ -120,6 +149,7 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
   The markup outline for this project was taken from the following README files:
   - [Kate McGuane / nine-lives](https://github.com/KateMcGuane/nine-lives).
+  - [Kera Cudmore / BookWorm](https://github.com/kera-cudmore/BookWorm?tab=readme-ov-file).
   - [Danvm94 / investosphere](https://github.com/Danvm94/investosphere).
 
 
