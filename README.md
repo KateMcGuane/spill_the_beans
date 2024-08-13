@@ -66,7 +66,7 @@ The target audience for this coffee blog is for those who is passionate about co
 
   ### Database
 
-  - [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/ "link to postgresql from code institute") was used as the PostgreSQL database for this project
+  - [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/) was used as the PostgreSQL database for this project
 
 
   ### Languages & Frameworks
@@ -74,12 +74,13 @@ The target audience for this coffee blog is for those who is passionate about co
   - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - To add content & structure.
   - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - To add the styles and layout of the site.
   - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - [Python](https://www.python.org/)
   - [Django](https://www.djangoproject.com/) - Python framework used to develop the site.
 
 
   ### Libraries
 
-  - [Font Awesome](https://fontawesome.com/) - To create paintbrush icon in header.
+  - [Font Awesome](https://fontawesome.com/) - For icon creation.
   - [Google Fonts](https://fonts.google.com/) - To extract fonts for the website.
 
 
@@ -90,10 +91,11 @@ The target audience for this coffee blog is for those who is passionate about co
   - [Canva](https://www.canva.com/) - To create favicon image.
   - [Chat GPT](https://chat.openai.com/) - To create written content & general consultation when troubleshooting.
   - [Coolors](https://coolors.co/) - To create colour palettes.
+  - [Diffchecker](https://www.diffchecker.com/text-compare/) - Used for debugging & troubleshooting.
   - [Favicon.io](https://favicon.io/favicon-converter/) - To convert favicon image into suitable sizes.
   - [GitHub](https://github.com/) - To store associated files & developments of the website.
   - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - For troubleshooting and testing features, styling and responsiveness.
-  - [VS Code](https://code.visualstudio.com/) - IDE via Github.
+  - [VS Code](https://code.visualstudio.com/) - IDE used for this project via Github.
 
  ### Web-Based Services
   - [Lucid Chart](https://www.lucidchart.com/pages/) - To create Entity-Relationship Diagram.
@@ -112,12 +114,6 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 ---
 
 ## Credits
-
-
-### Code
-
-  -
-
 
 ### Content
 
@@ -148,10 +144,6 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
   All external references used in this project are for educational purposes only. Any ownership of referenced materials belongs solely to the parties accredited above, or where otherwise stated by said parties. 
 
-  
-  ####  Media
-
-  - [Django Recipe Sharing Tutorial Series](https://www.youtube.com/watch?v=8ext9G7xspg&t=5795s&ab_channel=freeCodeCamp.org) by Dee Mc was used as an educational aid. //HOW_IT_CONTRIBUTED//
 
   #### Template & README
 
