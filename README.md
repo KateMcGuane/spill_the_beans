@@ -125,6 +125,7 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
   | Entry Type | Sourced From | Entry Title |
   | --- | --- | --- |
+  | About Page | [ChatGPT](https://chat.openai.com/) & own content writing | "Welcome to <em>Spill the Beans</em>" |
   | Blog | [Amber Everywhere](https://ambereverywhere.com/best-coffee-shops-in-cork-city-ireland/) | "11 Best Coffee Shops In Cork, Ireland (2024)" |
   | | [Artemis Blog](https://artemis.coffee/blog/history-of-coffee-top-5-most-influential-people/) | "Inventing Coffee Paper Filter" |
   | | [ChatGPT](https://chat.openai.com/) | "A Brew of Her Own: The Story of Ava Brewster in the World of Coffee" |
