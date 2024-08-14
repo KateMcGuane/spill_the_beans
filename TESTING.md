@@ -1,6 +1,6 @@
 # Spill The Beans - Testing
 
-Visit the deployed site: [Spill The Beans](//ENTER_DEPLOYED_SITE_HERE)
+Visit the deployed site: [Spill The Beans](https://spill-the-beans-coffee-blog-8f04f8c6207f.herokuapp.com/)
 
 ---
 

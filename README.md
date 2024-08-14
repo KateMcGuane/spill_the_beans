@@ -2,7 +2,7 @@
 
 Spill The Beans is a ficticious coffee blog. It is the ultimate online destination for coffee enthusiasts, connoisseurs, and casual sippers alike. Whether you're a seasoned barista, a home-brewing hobbyist, or someone just starting their coffee journey, our blog offers something for everyone who loves the rich, aromatic world of coffee.
 
-![Spill The Beans](//ENTER_DEPLOYED_SITE_HERE)
+![Spill The Beans](https://spill-the-beans-coffee-blog-8f04f8c6207f.herokuapp.com/)
 
 ## User Experience
 
