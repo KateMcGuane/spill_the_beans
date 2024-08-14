@@ -106,6 +106,49 @@ The target audience for this coffee blog is for those who is passionate about co
 
 ## Deployment, Forking & Cloning
 
+  ### Deployment
+
+  The site was deployed using Heroku. The is how the live site was deployed:
+
+  1. Log in (or sign up) to Heroku.
+  2. Go to the user dashboard & click "Create new app". Keep in mind that each app name on Heroku has to be unique.
+  3. Select the region & click "Create app".
+  4. Go to the settings tab & scroll to the "Config vars" section.
+  5. Click "Reveal Config Vars".
+  6. Create a Config Var, input the required hidden variables.
+  7. Scroll to the "Buildpacks" section.
+  8. Click "Add buildpacks". Select "Python" and "nodejs", and in that order.
+  9. Go to the “Deploy” tab.
+  10. Scroll to the “Deployment Method” section.
+  11. Click on “Connect to Github”. Search for the repository name & click "Connect".
+  12. Scroll to the "Manual Deploys" section.
+  13. Click "Deploy Branch". A message will show up to say "Your app was usccessfully deployed. The "View" button will take you to your deployed link.
+
+  Special Note: Ensure your DEBUG (from settings.py) is set to False when deploying to Heroku.
+
+
+  ### Local Development
+
+  #### How to Fork
+
+To fork the Spill the Beans repository, to either propose changes or to use as an idea for another website, follow these steps:
+
+  1. Log in (or sign up) to Github.
+  2. Go to the repository for this project, [Kate McGuane / spill_the_beans](https://github.com/KateMcGuane/spill_the_beans).
+  3. Click the Fork button in the top right corner. This action will create a copy of the repository under your GitHub account.
+
+
+  #### How to Clone
+
+  To clone the Spill the Beans repository:
+
+  1. Log in (or sign up) to GitHub.
+  2. Go to the repository for this project, [Kate McGuane / spill_the_beans](https://github.com/KateMcGuane/spill_the_beans).
+  3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+  4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+  5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+
 ---
 
 ## Manual Testing
