@@ -98,7 +98,7 @@ DATABASES = {
 # Allows development & production (Heroku) server to add blog post from admin panel
 # Ensures only requested allowed are ones from hosts in list below
 CSRF_TRUSTED_ORIGINS = [
-    "https://*8000-katemcguane-spillthebea-gkfuotnswlz.ws.codeinstitute-ide.net",
+    "https://8000-katemcguane-spillthebea-mt7uebshs3c.ws.codeinstitute-ide.net",
     "https://*.herokuapp.com"
 ]
 
