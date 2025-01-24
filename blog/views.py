@@ -30,11 +30,17 @@ def post_detail(request, slug):
     # Get data or raise a Http404 error if data object does not exist
     # The variable assigned to the result
     post = get_object_or_404(queryset, slug=slug)
+    comments = post.comments.all().order_by("-created_on")
+    comment_count = post.comments.filter(approved=True).count()
 
     # Helper function render() returns HttpResponse object
     return render(
         request,
         "blog/post_detail.html",
         # Context
-        {"post": post},
+        {
+            "post": post,
+            "comments": comments,
+            "comment_count": comment_count,
+        },
     )
