@@ -47,6 +47,7 @@ def post_detail(request, slug):
                 'Comment submitted and awaiting approval'
     )
 
+    # Resets content of the form
     comment_form = CommentForm()
 
     # Helper function render() returns HttpResponse object
