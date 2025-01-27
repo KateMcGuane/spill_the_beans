@@ -60,7 +60,7 @@ def post_detail(request, slug):
             "post": post,
             "comments": comments,
             "comment_count": comment_count,
-            "comment_form": comment_form,
+            "comment_form": comment_form
         },
     )
 
