@@ -66,7 +66,7 @@ The target audience for this coffee blog is for those who is passionate about co
 
   ### Database
 
-  - [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/) was used as the PostgreSQL database for this project
+  - [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/) was used as the PostgreSQL database for this project.
 
 
   ### Languages & Frameworks
@@ -199,10 +199,11 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   The markup outline for this project was taken from the following README files:
   - [Kate McGuane / nine-lives](https://github.com/KateMcGuane/nine-lives).
   - [Kera Cudmore / BookWorm](https://github.com/kera-cudmore/BookWorm?tab=readme-ov-file).
-  - [Danvm94 / investosphere](https://github.com/Danvm94/investosphere).
+  - [Kera Cudmore / seaside-sewing](https://github.com/kera-cudmore/seaside-sewing).
+  - [rockroman / CI_PP4-Knowledge-Flow](https://github.com/rockroman/CI_PP4-Knowledge-Flow/blob/main/README.md).
 
 
 ###  Acknowledgments
 
-  - Thank you to my mentor, cohort leader & CI team for your support and understanding during this project.
-  - To Mikhail, thank you for your continued support.
+  - Thank you to my mentor, cohort leader, CI tutoring & extended team for your support and understanding during this project.
+  - To Mikhail, and my family, thank you for your continued support.
