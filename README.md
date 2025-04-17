@@ -183,20 +183,6 @@ The target audience for this coffee blog is for those who is passionate about co
   ##### Generate a SECRET KEY & Updating Debug
   [Consult](https://github.com/kera-cudmore/seaside-sewing/blob/main/README.md)
 
-  ##### Set up AWS hosting for static and media files
-  [Consult](https://github.com/kera-cudmore/seaside-sewing/blob/main/README.md)
-
-  ##### Creating AWS groups, policies and users
-  [Consult](https://github.com/kera-cudmore/seaside-sewing/blob/main/README.md)
-  
-  ##### Connecting Django to our S3 bucket
-  [Consult](https://github.com/kera-cudmore/seaside-sewing/blob/main/README.md)
-
-  ##### Setting up Stripe
-  [Consult](https://github.com/kera-cudmore/seaside-sewing/blob/main/README.md)
-  
-
-
 
   ### Local Development
 
