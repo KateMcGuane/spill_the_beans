@@ -8,14 +8,31 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 ## Validation Testing
 
-<details><summary>Result Key</summary>
-| Key | Status |
-| :---: | :---: |
-| :heavy_check_mark: | Pass |
-| :x: | Fail |
-| :grey_exclamation: | Minor Error |
-</details>
-
+<details>
+  <summary>Result Key</summary>
+  <table>
+    <thead>
+      <tr>
+        <th>Key</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>:heavy_check_mark:</td>
+        <td>Pass</td>
+      </tr>
+      <tr>
+        <td>:x:</td>
+        <td>Fail</td>
+      </tr>
+      <tr>
+        <td>:grey_exclamation:</td>
+        <td>Minor Error</td>
+      </tr>
+    </tbody>
+  </table>
+  </details>
 
 
 ### HTML
@@ -62,40 +79,11 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 | **SEASIDE_SEWING** |
 | seaside_sewing/settings.py | Pass | [settings.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
 | seaside_sewing/urls.py | Pass | [urls.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| **BAG** |
-| bag/apps.py | Pass | [apps.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| bag/contexts.py | Pass | [contexts.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| bag/urls.py | Pass | [urls.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| bag/views.py | Pass | [views.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| bag/templatetags/bag_tools.py | Pass | [bag_tools.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| bag/test_views.py | Pass | [test_views.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| **CHECKOUT** |
-| checkout/admin.py | Pass | [admin.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/apps.py | Pass | [apps.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/forms.py | Pass | [forms.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/models.py | Pass | [models.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/signals.py | Pass | [signals.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/urls.py | Pass | [urls.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/views.py | Pass | [views.py](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/webhook_handler.py | Pass | [webhook_handler.py](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/webhooks.py | Pass| [webhooks.py](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| checkout/test_forms.py | Pass | [test_forms.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG)|
-| checkout/test_views.py | Pass | [test_views.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
 | **HOME** |
 | home/apps.py | Pass | [apps.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
 | home/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/home-urls-validation.png)|
 | home/views.py | Pass | [views.py validation](documentation/testing/validation/python/home-views-validation.png) |
 | home/test_views.py | Pass | [test_views.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| **PRODUCTS** |
-| products/admin.py | Pass | [admin.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| products/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/products-apps-validation.png) |
-| products/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/products-forms-validation.png) |
-| products/models.py | Pass | [models.py validation](documentation/testing/validation/python/products-models-validation.png) |
-| products/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/products-urls-validation.png) |
-| products/views.py | Pass | [views.py validation](documentation/testing/validation/python/products-views-validation.png) |
-| products/widgets.py | Pass | [widgets.py validation](documentation/testing/validation/python/products-widgets-validation.png) |
-| products/test_models.py | Pass | [test_models.py validation](documentation/testing/validation/python/products-test-models.png) |
-| products/test_views.py | Pass | [test_views.py](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
 | **PROFILES** |
 | profiles/apps.py | Pass | [apps.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
 | profiles/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/profiles-forms-validation.png) |
@@ -172,13 +160,6 @@ WAVE(Web Accessibility Evaluation Tool) allows developers to create content that
 | Page | Errors |
 | :--- | :--- |
 | Home Page | No errors|
-| Products Page | No errors |
-| Product Details Page | No errors |
-| Add Product Page | No errors |
-| Edit Product Page | No errors |
-| Bag Page | No errors |
-| Checkout Page | No errors |
-| Checkout Success Page | No errors |
 | Profile Page |No errors. It is showing 1 low contrast warning, however I am unable to find where it is as the badge for the contract warning is not actually displaying on the page |
 | Contact Us Page | No errors |
 | Privacy Policy Page| No errors |
@@ -197,37 +178,22 @@ WAVE(Web Accessibility Evaluation Tool) allows developers to create content that
 | User Story ID | As a/an | I want to be able to ... | So that I can... | How is this achieved? | Evidence |
 | :--- | :--- | :--- | :---| :--- | :---: |
 | **VIEWING & NAVIGATION** |
-| 1 | Shopper | Easily navigate the site | Find products/information that I am require | A navbar is provided at the top of the page which allows users easy access to their account, shopping bag, search bar and the product categories.   | [Lg Screen Navbar](documentation/testing/user-stories/us-1-a.png) & [Sm Screen Navbar](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| 2 | Shopper | View a category of products/filter products | Find specific items I am interested in without having to scroll through all products | When a user clicks on a category, they are then provided a dropdown with a breakdown of items within the chosen category. If a user choses the view all link, the page will display all items but the user will also be given the choice to refine the products shown via links to the sub-categories at the top of the page. | [Categories Dropdown Menu](documentation/testing/user-stories/us-2.png) |
-| 3 | Shopper | View more detail on products | to make an informed decision of if the item suits my requirements | When the user selects a product, they will be taken to the product detail page which lists more information about the item, such as the item name, price and description. A tag will display showing what category the product belongs to, along with a stock tag that displays the stock level for the product. If a rating and colour are available for the product, these will also be displayed in the tags section. A user may hover over the image and they will be shown a magnified view of the item. If they wish to view a larger image, they may click on the image and a larger version of the image will open in a new browser tab.  | [Product Details](documentation/testing/user-stories/us-3.png) |
-| 4 | Shopper | View items on clearance/sale easily | Save money  | There is a category choice for users called special offers which allows users to view deals or clearance items. | [View Special Offers](documentation/testing/user-stories/us-4.png) |
-| 5 | Shopper | View my running total of purchases throughout my visit | Make sure I don't overspend & am able to track whether I meet any thresholds for site offers (e.g. free delivery) | When a user adds a product to their shopping bag, a toast will display to let the user know their addition to their bag was successful, along with showing them the items currently in their bag with their value and price. The toast also displays their total. If a user hasn't reached the threshold for the free delivery offer, they will be notified of this within the toast, which will let them know how much more they need to spend to take advantage of this offer. The shopping bag icon on the navbar will also display their total throughout their visit to the site. | [Toast (free delivery not met)](documentation/testing/user-stories/us-5-a.png) -  [Toast (delivery met)](documentation/testing/user-stories/us-5-b.png) - [Bag Running Total](documentation/testing/user-stories/us-5-c.png) |
-| 6 | Shopper | View the items I currently have selected for purchase | to enable me to check I still wish to purchase the items, or amend quantities if required | Users are able to view all items selected for purchase from their bag. Their bag will list each item selected for purchase, along with the quantity, item price and subtotal for that item. At the bottom of their bag will be a section that lets them know the total for the items in their bag, the delivery charge (if applicable) and their grand total. | [Bag Page](documentation/testing/user-stories/us-6.png) |
-| 7 | Shopper | View ratings for products | make informed decisions about purchasing products | If a rating is available for a product, this will be displayed underneath the item on the products page and also in the tags section on the product details page. | [Products Page Ratings](documentation/testing/user-stories/us-7-a.png) - [Product Detail Page Rating](documentation/testing/user-stories/us-7-b.png) |
-| **REGISTRATION & USER ACCOUNTS** |
-| 8 | Shopper | Register for an account | Have an account with the site and view my profile | Users can register for an account via the account icon in the navbar, which is available on all pages of the site. If a user doesn't have an account during checkout, they are given an option to create an account on the checkout page. | [Register Dropdown](documentation/testing/user-stories/us-8-a.png) - [Register Link on Checkout Page](documentation/testing/user-stories/us-8-b.png) |
-| 9 | Shopper | Receive an email to verify my registration | Verify my account was created successfully | Users receive an email asking them to click the link in the email to verify their email address and complete the registration process. | [Email Verification for creating an account](documentation/testing/user-stories/us-9.png) |
-| 10 | Shopper | Log in and out | Keep my account information secure | Users are able to log in and out of their account through the account icon on the navbar which is accessible on all pages of the site. | [Account Logout](documentation/testing/user-stories/us-10.png) |
-| 11 | Shopper | View a profile page | Set a default delivery address and view previous purchases | Users are able to view their profile page once logged in via the account icon on the navbar which is accessible on all pages of the site. Their profile allows them to select their default delivery information (which if filled out will pre-populate the checkout delivery information if the user is signed in). Users are also able to view their previous orders within their profile. These are listed most recent first and give the first part of the order number, the date and time of the order, items ordered with their quantities along with the order total. If the user clicks on the order number, they will then be taken to a more detailed breakdown of their order. | [Profile Page](documentation/testing/user-stories/us-11.png) |
-| 12 | Shopper | Reset my password | Recover my account | If a user has forgotten their password, they can click on the forgotten password button during login to reset their password. | [Forgotten Password](documentation/testing/user-stories/us-12.png) |
-| **SORTING & SEARCHING** |
-| 13 | Shopper | Sort the list of available products | Easily identify the best rated, best priced and categorically sort products | Users may view products bases on their price, rating or category from the navbar by selecting all products and then the option they want from the dropdown.  | [Category Sorting](documentation/testing/user-stories/us-13.png) |
-| 14 | Shopper | Sort a specific category of products | Find the best-priced or best-rated product in a specific category, or sort the products in that category by name | Users are given chance to sort products on the products pages via a sort dropdown in the top right. This allows users to sort products by their name, price, rating and category - ascending or descending. | [Sort Products](documentation/testing/user-stories/us-14.png) |
-| 15 | Shopper | Sort multiple categories of products simultaneously | Find the best-priced or best-rated products across broad categories, such as fabric or haberdashery | Users may select the all products link on the navbar and then choose how they wish to sort | [All Products sorting](documentation/testing/user-stories/us-15.png) |
-| 16 | Shopper | Search for a product by name or description | Find a specific product I'd like to purchase | Users are provided with a search bar in the navbar which allows them to search for items. The search not only checks the product name, but also their description for the search term used.  | [Search Bar](documentation/testing/user-stories/us-16.png) |
-| 17 | Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available | Users are given feedback on their search term and the number of products which match the search term on the results page in the top left. | [Search Results](documentation/testing/user-stories/us-17.png) |
-| **PURCHASING & CHECKOUT** |
-| 18 | Shopper | Easily select the quantity of a product when purchasing it | Ensure I don't accidentally select the wrong product quantity | Users are provided a quantity input box on the product detail page which allows them to increase or decrease the quantity required using the plus or minus buttons. The buttons are coloured to also provide visual understanding for the user of their purpose. Users may also type the value they wish to purchase directly into the quantity box. Once a user adds a product to their bag they receive a toast notification of the product they've added together with the quantity.  | [Quantity Selection](documentation/testing/user-stories/us-18.png) |
-| 19 | Shopper | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive | When the user views their bag, they will be presented with a list of all items selected for purchase, information shown will include an image of the item, the items name, the quantity of the item selected, the unit price of the item and the subtotal price for that item. At the bottom of the bag the user will be given the subtotal for all the items they are purchasing, the delivery fee (if applicable) and the grand total of their order. | [Bag Page](documentation/testing/user-stories/us-19.png) |
-| 20 | Shopper | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout | The users are given a quantity selector in the bag that looks the same as on the product detail page to provide continuity and familiarity for the user. Once the user has selected the new quantity of the item, they click the update link under the quantity input and the page will reload with the new quantities. If a user decides they would like to remove the item completely from their bag they can remove the item by clicking the remove link under the product. This removes the product and shows a toast which confirms that the user has successfully deleted the selected item from their bag.  | [Bag Quantity Selector](documentation/testing/user-stories/us-20.png) |
-| 21 | Shopper | Easily enter my payment information | Check out quickly and with no hassles | When a user is taken to the checkout page they can clearly see 3 sections of information that need to be completed to complete their order - their details, the delivery information and the payment information. Feedback is provided to the user whilst completing the checkout if any information they give is invalid. | [Payment](documentation/testing/user-stories/us-21.png) |
-| 22 | Shopper | Feel my personal and payment information is safe and secure | Confidently provide the needed information to make a purchase | Seaside Sewing provides its checkout facilities through Stripe | [Stripe Security](https://stripe.com/docs/security?locale=en-GB) |
-| 23 | Shopper | View an order confirmation after checkout | Verify that I haven't made any mistakes | Users are taking to an order confirmation page once they have successfully checked out which provides them with their order information, such as their order details and the order date.  They are also shown their order details which lists the items they have purchased along with their quantity and the price of the item. A delivery section provides them with information on where they are having their order delivered to and finally they are shown the billing information section which provides them with their total, the delivery fee (if applicable) and the grand total for their order. | [Order Confirmation](documentation/testing/user-stories/us-23.png) |
-| 24 | Shopper | Receive an email confirmation after checking out | Keep the confirmation of what I've purchased for my records | Upon successful checkout, a user will be sent a confirmation email to the email address provided at checkout to confirm their order. | [Email Confirmation](documentation/testing/user-stories/us-24.png) |
-| **ADMIN & STORE MANAGEMENT** |
-| 25 | Store Owner | Add a product | Add new items to my store | Admin are able to add new products to the store directly from the store website when logged in as a superuser. This option is provided to them under the account icon in the navbar - product management. If an admin clicks on this link, they will be taken to the add product page where they can add a new item to be added to the store. | [Add Product](documentation/testing/user-stories/us-25.png) |
-| 26 | Store Owner | Edit/update a product | Change product prices, descriptions, images and other product criteria | When a superuser is logged in, they are shown an edit button underneath each product on the products page, and are also shown an edit button when viewing a product. Once clicked they will be taken to a page similar in layout to the add product page (to provide continuity and familiarity) and are able to edit the products information. | [Edit Product](documentation/testing/user-stories/us-26.png) |
-| 27 | Store Owner | Delete a product | Remove items that are no longer for sale | When a superuser is logged in, they are shown a delete button underneath each product on the products page, and are also shown a delete button when viewing a product. Once clicked they a modal will pop up asking them to confirm they wish to delete this product, and notifying them that this action cannot be undone. The superuser is given a choice to delete the product or cancel. The modal provides a layer of protection to product deletion and should prevent accidental deletion of products. | [Delete Product](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| 1 | Site User | view a paginated list of posts | select which post I want to view.  | Given more than one post in the database, these multiple posts are listed. These are organised into columns and rows so that the user can clearly see the blog posts available. [Lg Screen Pagination](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Sm Screen Pagination](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 2 | Site User | click on a post | read the full text. | When a user clicks on a blog post title, they are provided with a detailed view of the post.| [Blog Post Title](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 3 | Site User/Admin | view comments on an individual post | read the conversation thread. | Given one or more user comments they can view them, and click on the comment thread to read the conversation. | [View Comments](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 4 | Site User | register for an account | comment on a post.  | Given an email, a user can register an account, log in & comment on a blog post. | [Account Registration](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Login](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Comment as User](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 5 | Site User | leave comments on a post | be involved in the conversation. | A user can leave a comment for review by admin. Once this is approved by admin, then a user can reply. Given more than one comment, the conversation becomes a thread. | [Comment](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Comment Approved](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Conversation becomes Thread](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 6 | Site User | modify or delete my comment on a post | be involved in the conversation. | Given a logged in user, they can modify or delete their comment. | [Modify Comment](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Delete Comment](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 7 | Site Admin | Create, Read, Update and Delete posts | manage my blog content. | Given a loggined in user, they can create, read, update or delete a blog post. | [Create Post](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Read Post](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Update Post](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Delete Post](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 8 | Site Admin/User | create draft posts | finish writing the content later. | Given a logged in user, they can save a draft blog post & finish the content at a later time. | [Blog Post Draft](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 9 | Site Admin | approve or disapprove of comments | filter out an objectionable comments. | Given a logged in site admin, they can approve or disapprove a comment for publication. | [Approve Comment](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Disapprove Comment](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 10 | Site User | click on the About link | I can read more about the site. | Users are able to access the About page (visible from the navigation) when the link is clicked. | [About Page](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 11 | Site Admin | create or update the About page content | it is available on the site. | The About app is visible in the admin panel & edits can be made to the About section with ease. | [About Admin Panel](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Edit About Content](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 12 | Site Admin/User | see timestamps | I know all entries are current. | All updates to the About page are timestamped. | [About Timestamp](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 13 | Site User | easily understand what the blog is about | navigate the website with ease. | The website uses clear and descriptive titles; intuitive navigation; clean, readable font; consistent structure; unclutter imagery that reflects the topic; high contrast between backgrounds and text. | [Clear & Descriptive Titles](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Intuitive Navigation](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [clean & Readable Font](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Consistent Structure](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [Uncluttered Imagery](documentation/testing/user-stories/NAME_OF_IMG.png) <br> [high Contrast](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 14 | Potential collaborator | fill in a contact form | submit a request for collaboration. | The site owner can be contacted when someone wishes to collaborate. | [Contact Form](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 15 | Site Owner | store collaboration requests in the database | review them. | All collaboration requests submitted are stores in the database where they can be reviewed. | [Store & Review Collaboration Requests](documentation/testing/user-stories/NAME_OF_IMG.png) |
+| 16 | Site Owner | mark collaboration requests as "read" | see how many I still need to process. | The site owner can see the progress made on collaboration requests at a glance, and can manage the processing of these requests. | [Collaboration Requests "Read"](documentation/testing/user-stories/NAME_OF_IMG.png) |
 
 
 ### Features Testing
