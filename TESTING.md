@@ -13,8 +13,9 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 | :---: | :---: |
 | :heavy_check_mark: | Pass |
 | :x: | Fail |
-| Minor Error | :grey_exclamation: |
+| :grey_exclamation: | Minor Error |
 </details>
+
 
 
 ### HTML
