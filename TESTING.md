@@ -1,4 +1,4 @@
-# Spill The Beans - Testing
++# Spill The Beans - Testing
 
 Visit the deployed site: [Spill The Beans](https://spill-the-beans-coffee-blog-8f04f8c6207f.herokuapp.com/)
 
@@ -41,12 +41,12 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | Page | Status | Evidence |
 | :--- | :---: | :---: |
-| Home |   | [Home Page Validation](ENTER_HTTP_HERE) |
-| About |   | [About Page Validation](ENTER_HTTP_HERE) |
-| Register |   | [Register Page Validation](ENTER_HTTP_HERE) |
-| Login |   | [Login Page Validation](ENTER_HTTP_HERE) |
-| 404 |   | [Home Page Validation](ENTER_HTTP_HERE) |
-| *Custom* |   | [Custom Page Validation](ENTER_HTTP_HERE) |
+| Home |   | [Home Page Validation](documentation/testing/validation/html.NAME_OF_IMG.png) |
+| About |   | [About Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
+| Register |   | [Register Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
+| Login |   | [Login Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
+| 404 |   | [Home Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
+| *Custom* |   | [Custom Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
 
 
 ### CSS
@@ -55,7 +55,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | Filepath | Status | Evidence |
 | :--- | :---: | :---: |
-| static/base.css | | [static/base.css validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| static/base.css | | [static/base.css validation](documentation/testing/validation/css/NAME_OF_IMG.png)  |
 
 
 ### JavaScript
@@ -64,9 +64,9 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | File | Result | Evidence |
 | :--- | :---: | :---: |
-| file/as/found/in/directory/filename.js | Pass | [filename.js](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| file/as/found/in/directory/filename.js | Pass | [filename.js](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| file/as/found/in/directory/filename.js | Pass | [filename.js](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| file/as/found/in/directory/filename.js | Pass | [filename.js](documentation/testing/validation/js/NAME_OF_IMG.png)  |
+| file/as/found/in/directory/filename.js | Pass | [filename.js](documentation/testing/validation/js/NAME_OF_IMG.png)  |
+| file/as/found/in/directory/filename.js | Pass | [filename.js](documentation/testing/validation/js/NAME_OF_IMG.png)  |
 
 
 ### Python
@@ -75,33 +75,33 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | File | Result | Evidence |
 | :--- | :---: | :---: |
-| custom_storages.py | Pass | [custom_storages.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| custom_storages.py | Pass | [custom_storages.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
 | **SEASIDE_SEWING** |
-| seaside_sewing/settings.py | Pass | [settings.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| seaside_sewing/urls.py | Pass | [urls.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| seaside_sewing/settings.py | Pass | [settings.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| seaside_sewing/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
 | **HOME** |
-| home/apps.py | Pass | [apps.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| home/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/home-urls-validation.png)|
-| home/views.py | Pass | [views.py validation](documentation/testing/validation/python/home-views-validation.png) |
-| home/test_views.py | Pass | [test_views.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| home/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| home/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| home/views.py | Pass | [views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| home/test_views.py | Pass | [test_views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
 | **PROFILES** |
-| profiles/apps.py | Pass | [apps.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| profiles/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/profiles-forms-validation.png) |
-| profiles/models.py | Pass | [models.py validation](documentation/testing/validation/python/profiles-models-validation.png) |
-| profiles/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/profiles-urls-validation.png) |
-| profiles/views.py | Pass | [views.py validation](documentation/testing/validation/python/profiles-views-validation.png) |
-| profiles/test_views.py | Pass | [test_views.py validation](documentation/testing/validation/python/profiles-test-views.png) |
-| profiles/test_models.py | Pass | [test_models.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| profiles/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| profiles/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| profiles/models.py | Pass | [models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| profiles/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| profiles/views.py | Pass | [views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| profiles/test_views.py | Pass | [test_views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| profiles/test_models.py | Pass | [test_models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
 | **CONTACT** |
-| contact/admin.py | Pass |[admin.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| contact/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/contact-apps-validation.png) |
-| contact/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/contact-forms-validation.png) |
-| contact/models.py | Pass | [models.py validation](documentation/testing/validation/python/contact-models-validation.png) |
-| contact/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/contact-urls-validation.png) |
-| contact/views.py | Pass | [views.py validation](documentation/testing/validation/python/contact-views-validation.png) |
-| contact/test_forms.py | Pass | [test_forms.py validation](documentation/testing/validation/python/contact-test-forms-validation.png) |
-| contact/test_models.py | Pass | [test_models.py validation](documentation/testing/validation/python/contact-test-models.png)|
-| contact/test_views.py | Pass | [test_views.py validation](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| contact/admin.py | Pass |[admin.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| contact/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| contact/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| contact/models.py | Pass | [models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| contact/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| contact/views.py | Pass | [views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| contact/test_forms.py | Pass | [test_forms.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| contact/test_models.py | Pass | [test_models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png)|
+| contact/test_views.py | Pass | [test_views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
 
 
 ---
@@ -116,38 +116,38 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 
 | Page | Result |
 | :--- | :--- |
-| Home Page | ![Home Desktop Lighthouse Testing](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| Products Page | ![Products Desktop Lighthouse Testing](documentation/testing/lighthouse/products-desk-lh-val.png) |
-| Product Details Page | ![Product Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/product-detail-desk-lh-val.png) |
-| Add Product Page | ![Add Product Desktop Lighthouse Testing](documentation/testing/lighthouse/add-product-desk-lh-val.png) |
-| Edit Product Page | ![Edit Product Desktop Lighthouse Testing](documentation/testing/lighthouse/edit-product-desk-lh-val.png) |
-| Bag Page | ![Bag Desktop Lighthouse Testing](documentation/testing/lighthouse/bag-desk-lh-val.png) |
-| Checkout Page | ![Checkout Desktop Lighthouse Testing](documentation/testing/lighthouse/checkout-desk-lh-val.png) |
-| Checkout Success Page | ![Checkout Success Desktop Lighthouse Testing](documentation/testing/lighthouse/checkout-success-desk-lh-val.png) |
-| Profile Page | ![Profile Desktop Lighthouse Testing](documentation/testing/lighthouse/profile-desk-lh-val.png) |
-| Contact Us Page | ![Contact Us Desktop Lighthouse Testing](documentation/testing/lighthouse/contact-desk-lh-val.png) |
-| Privacy Policy Page| ![Privacy Desktop Lighthouse Testing](documentation/testing/lighthouse/privacy-desk-lh-val.png)  |
-| Terms & Conditions Page | ![Terms Desktop Lighthouse Testing](documentation/testing/lighthouse/terms-desk-lh-val.png) |
-| Delivery Policy Page | ![Delivery Desktop Lighthouse Testing](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Products Page | ![Products Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Product Details Page | ![Product Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Add Product Page | ![Add Product Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Edit Product Page | ![Edit Product Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Bag Page | ![Bag Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Checkout Page | ![Checkout Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Checkout Success Page | ![Checkout Success Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Profile Page | ![Profile Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Contact Us Page | ![Contact Us Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Privacy Policy Page| ![Privacy Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Terms & Conditions Page | ![Terms Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Delivery Policy Page | ![Delivery Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
 
 
 ### Mobile Results
 
 | Page | Result |
 | :--- | :--- |
-| Home Page | ![Home Desktop Lighthouse Testing](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
-| Products Page | ![Products Desktop Lighthouse Testing](documentation/testing/lighthouse/products-desk-lh-val.png) |
-| Product Details Page | ![Product Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/product-detail-desk-lh-val.png) |
-| Add Product Page | ![Add Product Desktop Lighthouse Testing](documentation/testing/lighthouse/add-product-desk-lh-val.png) |
-| Edit Product Page | ![Edit Product Desktop Lighthouse Testing](documentation/testing/lighthouse/edit-product-desk-lh-val.png) |
-| Bag Page | ![Bag Desktop Lighthouse Testing](documentation/testing/lighthouse/bag-desk-lh-val.png) |
-| Checkout Page | ![Checkout Desktop Lighthouse Testing](documentation/testing/lighthouse/checkout-desk-lh-val.png) |
-| Checkout Success Page | ![Checkout Success Desktop Lighthouse Testing](documentation/testing/lighthouse/checkout-success-desk-lh-val.png) |
-| Profile Page | ![Profile Desktop Lighthouse Testing](documentation/testing/lighthouse/profile-desk-lh-val.png) |
-| Contact Us Page | ![Contact Us Desktop Lighthouse Testing](documentation/testing/lighthouse/contact-desk-lh-val.png) |
-| Privacy Policy Page| ![Privacy Desktop Lighthouse Testing](documentation/testing/lighthouse/privacy-desk-lh-val.png)  |
-| Terms & Conditions Page | ![Terms Desktop Lighthouse Testing](documentation/testing/lighthouse/terms-desk-lh-val.png) |
-| Delivery Policy Page | ![Delivery Desktop Lighthouse Testing](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG) |
+| Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Products Page | ![Products Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Product Details Page | ![Product Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Add Product Page | ![Add Product Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Edit Product Page | ![Edit Product Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Bag Page | ![Bag Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Checkout Page | ![Checkout Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Checkout Success Page | ![Checkout Success Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Profile Page | ![Profile Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Contact Us Page | ![Contact Us Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Privacy Policy Page| ![Privacy Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png)  |
+| Terms & Conditions Page | ![Terms Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Delivery Policy Page | ![Delivery Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
 
 
 ---
@@ -264,15 +264,15 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
 
 
   ### Desktop Screens
-  ![Desktop Responsiveness](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG)
+  ![Desktop Responsiveness](documentation/testing/responsiveness/desktop_responsiveness.gif)
 
 
   ### Tablet Screens
-  ![Tablet Responsiveness](testing/responsiveness/tablet_responsiveness.gif)
+  ![Tablet Responsiveness](documentation/testing/responsiveness/tablet_responsiveness.gif)
 
 
   ### Mobile Screens
-  ![Mobile Responsiveness](testing/responsiveness/mobile_responsiveness.gif)
+  ![Mobile Responsiveness](documentation/testing/responsiveness/mobile_responsiveness.gif)
 
 
 ---
@@ -289,7 +289,7 @@ The following elements were tested manually on each of the browsers:
 
 
   ### Brave
-  ![Brave](ENTER_DOCUMENTATION_FILEPATH_HERE.PNG)
+  ![Brave](testing/browser/brave_browser.gif)
 
 
   ### Chrome
@@ -297,7 +297,7 @@ The following elements were tested manually on each of the browsers:
 
 
   ### Microsoft Edge
-  ![Microsoft Edge](testing/browser/browser_microsoft_edge.gif)
+  ![Microsoft Edge](testing/browser/microsoft_edge_browser.gif)
 
 
 ---
@@ -309,7 +309,7 @@ The following elements were tested manually on each of the browsers:
 
 | # | Bug | Troubleshooting Attempts | How I solved the issue | Evidence |
 | --- | --- | --- | --- | --- |
-| 1 | About app not loading in server: Server Error (500) | - Ensure all file & directory paths are laid out correctly <br> - Compare steps taken with that of the lesson module <br> - Use diffchecker to compare snippets of code <br> - Delete About app & start process again <br> - Consult Google <br> - Consult tutor support | - Create a new database(db) <br> - Update env.py with new db <br> - Ensure all migrations were applied <br> - Delete old db from db manager <br> - Run command 'python3 manage.py loaddata db.json' in terminal | ![About App](static/testing/bugs/about_app.png)  |
+| 1 | About app not loading in server: Server Error (500) | - Ensure all file & directory paths are laid out correctly <br> - Compare steps taken with that of the lesson module <br> - Use diffchecker to compare snippets of code <br> - Delete About app & start process again <br> - Consult Google <br> - Consult tutor support | - Create a new database(db) <br> - Update env.py with new db <br> - Ensure all migrations were applied <br> - Delete old db from db manager <br> - Run command 'python3 manage.py loaddata db.json' in terminal | ![About App](documentation/testing/bugs/about_app.png)  |
 
 
 ### Unresolved Bugs
