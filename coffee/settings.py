@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'django_summernote',
     'cloudinary',
     'blog',
-    'about',
+    'about'
 ]
 
 # Handles multiple sites from one database
