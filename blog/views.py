@@ -46,7 +46,7 @@ def post_detail(request, slug):
             messages.add_message(
                 request, messages.SUCCESS,
                 'Comment submitted and awaiting approval'
-    )
+            )
 
     # Resets content of the form
     comment_form = CommentForm()
@@ -83,9 +83,9 @@ def comment_edit(request, slug, comment_id):
             comment.save()
             messages.add_message(request, messages.SUCCESS, 'Comment Updated!')
         else:
-            messages.add_message(request, messages.ERROR,
-                                 'Error updating comment!')
-
+            messages.add_message(
+                request, messages.ERROR, 'Error updating comment!'
+            )
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
@@ -102,6 +102,6 @@ def comment_delete(request, slug, comment_id):
         messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
     else:
         messages.add_message(request, messages.ERROR,
-                             'You can only delete your own comments!')
+                            'You can only delete your own comments!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
