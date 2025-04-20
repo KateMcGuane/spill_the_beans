@@ -91,6 +91,8 @@ The target audience for this coffee blog is for those who is passionate about co
 
   ### Libraries & Packages
 
+  - [Crispy Bootstrap5](https://pypi.org/project/crispy-bootstrap5/)
+  - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/2.0/) - To build easily customisable forms.
   - [Font Awesome](https://fontawesome.com/) - For icon creation.
   - [Google Fonts](https://fonts.google.com/) - To extract fonts for the website.
   - [gunicorn](https://pypi.org/project/gunicorn/) - a Python WSGI HTTP Server
@@ -112,19 +114,6 @@ The target audience for this coffee blog is for those who is passionate about co
   - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - For troubleshooting and testing features, styling and responsiveness.
   - [Pip](https://pypi.org/project/pip/) - A tool for installing Python packages.
   - [VS Code](https://code.visualstudio.com/) - IDE used for this project via Github.
-
-
-  ### Stripe
-
-  [Stripe](https://stripe.com/ie) has been used in the project to implement the payment system.
-
-  Stripe for the website is currently in developer mode, which allows us to be able to process test payments to check the function of the site.
-
-  | Type | Card No | Expiry | CVC | ZIP |
-  | :--- | :--- |:--- | :--- | :--- |
-  | Success| Visa | 4242 4242 4242 4242 | A date in the future | Any 3 digits | Any 5 digits |
-  | Require authorisation | 4000 0027 6000 3184 | A date in the future | Any 3 digits | Any 5 digits |
-  | Declined | 4000 0000 0000 0002 | A date in the future | Any 3 digits | Any 5 digits |
 
 
  ### Web-Based Services
@@ -253,7 +242,8 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   | | | "The Ultimate Coffee Cocktail" (Introduction) |
   | | [SuperValu](https://supervalu.ie/recipes/classic-irish-coffee) | "Classic Irish Coffee" |
 
-  All external references used in this project are for educational purposes only. Any ownership of referenced materials belongs solely to the parties accredited above, or where otherwise stated by said parties. 
+  All external references used in this project are for educational purposes only. Any ownership of referenced materials belongs solely to the parties accredited above, or where otherwise stated by said parties.
+  Smaller snippets of content such as comments were written by myself.
 
 
   #### Template & README
