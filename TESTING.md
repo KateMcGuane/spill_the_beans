@@ -311,6 +311,8 @@ The following elements were tested manually on each of the browsers:
 | --- | --- | --- | --- | --- |
 | 1 | About app not loading in server: Server Error (500) | - Ensure all file & directory paths are laid out correctly <br> - Compare steps taken with that of the lesson module <br> - Use diffchecker to compare snippets of code <br> - Delete About app & start process again <br> - Consult Google <br> - Consult tutor support | - Create a new database(db) <br> - Update env.py with new db <br> - Ensure all migrations were applied <br> - Delete old db from db manager <br> - Run command 'python3 manage.py loaddata db.json' in terminal | ![About App](documentation/testing/bugs/about-app.png) |
 | 2 | When a comment is submitted, it re-submits everytime the refresh button is clicked. | -  <br> | ![Comments Resubmitted Frontend](documentation/testing/bugs/refresh-comment-1.PNG) <br> ![Comments Resubmitted Backend](documentation/testing/bugs/refresh-comment-2.PNG) |
+| 3 | Hero image on About page was filling the background & overlaying with the text | - On revision of this project, this issue was no longer occurring <br> The image was removed as it added nothing to the site | ![Hero Image Desktop](documentation/testing/bugs/hero-image-desktop.PNG) <br> ![Hero Image Mobile](documentation/testing/bugs/hero-image-mobile.PNG) |
+| 4 |  11 Best Coffee Shops blog post has a paragraph with a different background colour from the rest of the entry. | - <br> | ![Background Inconsistency](documentation/testing/bugs/paragraph-background-colour.PNG) |
 
 
 ### Unresolved Bugs
