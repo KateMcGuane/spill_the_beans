@@ -91,13 +91,14 @@ The target audience for this coffee blog is for those who is passionate about co
 
   ### Libraries & Packages
 
-  - [Crispy Bootstrap5](https://pypi.org/project/crispy-bootstrap5/)
+  - [Crispy Bootstrap5](https://pypi.org/project/crispy-bootstrap5/) - An extension pack for Crispy Forms, allowing it to render Django forms using Bootstrap 5 styles.
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/2.0/) - To build easily customisable forms.
+  - [Django Summernote](https://pypi.org/project/django-summernote/) - A rich text editor built for the web, allowing users to write and format text in a way that looks imilar to how it will appear on the final page.
   - [Font Awesome](https://fontawesome.com/) - For icon creation.
   - [Google Fonts](https://fonts.google.com/) - To extract fonts for the website.
-  - [gunicorn](https://pypi.org/project/gunicorn/) - a Python WSGI HTTP Server
-  - [psycopg2](https://pypi.org/project/psycopg2/) - a postgres database adapter which allow us to connect with a postgres database
-
+  - [gunicorn](https://pypi.org/project/gunicorn/) - A Python WSGI HTTP Server.
+  - [psycopg2](https://pypi.org/project/psycopg2/) - A postgres database adapter which allow us to connect with a postgres database.
+  - [White Noise](https://pypi.org/project/whitenoise/) - A solution for serving CSS, JavaScript & static images.
 
   ### Programs
 
@@ -107,7 +108,6 @@ The target audience for this coffee blog is for those who is passionate about co
   - [Chat GPT](https://chat.openai.com/) - To create written content & general consultation when troubleshooting.
   - [Coolors](https://coolors.co/) - To create colour palettes.
   - [Diffchecker](https://www.diffchecker.com/text-compare/) - Used for debugging & troubleshooting.
-  - [DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
   - [Favicon.io](https://favicon.io/favicon-converter/) - To convert favicon image into suitable sizes.
   - [Git](https://git-scm.com/) - For version control.
   - [GitHub](https://github.com/) - To store associated files & developments of the website.
@@ -116,10 +116,13 @@ The target audience for this coffee blog is for those who is passionate about co
   - [VS Code](https://code.visualstudio.com/) - IDE used for this project via Github.
 
 
- ### Web-Based Services
+ ### Web-Based Services & Tools
+
+ - [DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
   - [Lucid Chart](https://www.lucidchart.com/pages/) - To create Entity-Relationship Diagram.
-  - [Raw Pixel](https://www.rawpixel.com/) - For images.
-  - [Unsplash](https://unsplash.com/) - For images.
+  - [Raw Pixel](https://www.rawpixel.com/) - For sourced images.
+  - [Unsplash](https://unsplash.com/) - For sourced images.
+  - [WAVE](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) - A Chrome extension used to evaluate web accessibility within the browser.
 
 
 ---
