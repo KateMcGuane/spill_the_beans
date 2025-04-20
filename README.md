@@ -91,14 +91,16 @@ The target audience for this coffee blog is for those who is passionate about co
 
   ### Libraries & Packages
 
+  - [Cloudinary](https://cloudinary.com/) - Used the cloud-based media management platform to store and handle media files that may be subject to change.
   - [Crispy Bootstrap5](https://pypi.org/project/crispy-bootstrap5/) - An extension pack for Crispy Forms, allowing it to render Django forms using Bootstrap 5 styles.
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/2.0/) - To build easily customisable forms.
-  - [Django Summernote](https://pypi.org/project/django-summernote/) - A rich text editor built for the web, allowing users to write and format text in a way that looks imilar to how it will appear on the final page.
+  - [Django Summernote](https://pypi.org/project/django-summernote/) - The rich text editor built for the web, was used to allow users to write and format text in a way that looks similar to how it will appear on the final page.
   - [Font Awesome](https://fontawesome.com/) - For icon creation.
   - [Google Fonts](https://fonts.google.com/) - To extract fonts for the website.
-  - [gunicorn](https://pypi.org/project/gunicorn/) - A Python WSGI HTTP Server.
-  - [psycopg2](https://pypi.org/project/psycopg2/) - A postgres database adapter which allow us to connect with a postgres database.
+  - [gunicorn](https://pypi.org/project/gunicorn/) - A Python WSGI HTTP Server, was used to help deploy the Django project.
+  - [psycopg2](https://pypi.org/project/psycopg2/) - A postgres database adapter which allowed to connect with the postgres database.
   - [White Noise](https://pypi.org/project/whitenoise/) - A solution for serving CSS, JavaScript & static images.
+
 
   ### Programs
 
