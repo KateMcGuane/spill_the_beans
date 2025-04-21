@@ -109,7 +109,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 ## Lighthouse Report
 
-Google's Lightouse was used to test the performance, accessibility, best practices ad SEO of the site.
+Google's Lightouse was used to test the performance, accessibility, best practices ad SEO of the site. In order to adhere to best practices, these tests were performed in an incognito window.
 
 
 ### Desktop Results
