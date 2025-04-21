@@ -3,10 +3,11 @@ from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
 
+# Puts limit on status; human-readable vs integers
 STATUS = (
     (0, "Draft"),
     (1, "Published"),
-)  # puts limit on status; human-readable vs integers
+)
 
 
 # Create your models here.
