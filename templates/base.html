@@ -21,7 +21,7 @@
     
 
     <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -104,13 +104,22 @@
         <p class="m-0 text-center text-white">
             <!-- Default text -->
             {% block copyright %}
-                Copyright 2024 Kate McGuane
+            <p>Spill the Beans has been created by <a href="https://github.com/KateMcGuane" target="_blank" rel="noopener" aria-label="Visit my Github page (opens in a new tab)" class="text-white">Kate McGuane</a> as a portfolio project for the Code Institute Full Stack Developer Diploma. <br> The project is not affiliated with any real coffee shop or brand.</p>
             {% endblock copyright %}
         </p>
-        <p class="m-0 text-center text-white">Follow us: <i class="fab fa-facebook-square ms-3"></i>
-            <i class="fab fa-twitter-square ms-3"></i>
-            <i class="fab fa-instagram-square ms-3"></i>
-            <i class="fab fa-youtube-square ms-3"></i>
+        <p class="m-0 text-center text-white">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)" class="text-white">
+                <i class="fab fa-facebook-square ms-3"></i>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Visit our X page (opens in a new tab)" class="text-white">
+                <i class="fab fa-square-x-twitter ms-3"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)" class="text-white">
+                <i class="fab fa-instagram-square ms-3"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)" class="text-white">
+                <i class="fab fa-youtube-square ms-3"></i>
+            </a>
         </p>
     </footer>
 
