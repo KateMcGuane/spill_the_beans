@@ -7,8 +7,24 @@ from .forms import CommentForm
 
 
 # Create your views here.
-# Class-based view
 class PostList(generic.ListView):
+    """
+    Returns all published posts in :model:`blog.Post`
+    and displays them in a paginated list of six posts
+    per page.
+
+    **Context**
+    ``queryset``
+        All published instances of :model:`blog.Post`.
+    ``paginate_by``
+        Number of posts per page.
+
+    **Template:**
+
+    :template:`blog/index.html`
+        Renders the list of published posts in
+        a paginated format.
+    """
     queryset = Post.objects.filter(status=1)
     template_name = "blog/index.html"
     paginate_by = 6
@@ -18,14 +34,24 @@ class PostList(generic.ListView):
 def post_detail(request, slug):
 
     """
-    Display an individual :model:`blog.Post`.
+    Display details an individual :model:`blog.Post`,
+    and its approved comments.
 
     **Context**
     ``post``
         An instance of :model:`blog.Post`.
+    ``comments``
+        All approved comments related to the post.
+    ``comment_count``
+        Number of approved comments related to the post.
+    ``comment_form``
+        A form to submit new comments for the post.
+        An instance of :form:`blog.CommentForm`.
 
     **Template:**
     :template:`blog/post_detail.html`
+        Renders the post details, approved comments,
+        and the comment submission form.
     """
 
     queryset = Post.objects.filter(status=1)
@@ -68,7 +94,20 @@ def post_detail(request, slug):
 
 def comment_edit(request, slug, comment_id):
     """
-    view to edit comments
+    Allows user to edit own comment on post.
+
+    **Context**
+    ``post``
+        An instance of :model:`blog.Post`.
+    ``comment``
+        The commetn to be edited.
+    ``comment_form``
+        A form pre-populated with the comment's data for editing.
+        An instance of :form:`blog.CommentForm`.
+
+    **Template:**
+    :template:`blog/post_detail.html`
+        Renders post details & comment edit form (if applicable).
     """
     if request.method == "POST":
 
@@ -92,7 +131,18 @@ def comment_edit(request, slug, comment_id):
 
 def comment_delete(request, slug, comment_id):
     """
-    view to delete comment
+    Allows user to delete own comment on post.
+
+    **Context**
+    ``post``
+        An instance of :model:`blog.Post`.
+    ``comment``
+        The comment to be deleted.
+
+    **Template:**
+    :template:`blog/post_detail.html`
+        Renders the post details after a comment is deleted
+        (or error if not owned by the user).
     """
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
