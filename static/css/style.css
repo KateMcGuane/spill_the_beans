@@ -4,6 +4,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .brand {
     font-family: 'Półtawski Nowy', serif;
     font-size: 1.4rem;
