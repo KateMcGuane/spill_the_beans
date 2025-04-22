@@ -186,3 +186,54 @@ a.custom-social i {
 .approval {
     color: rgb(222, 146, 168);
 }
+
+/* Modal styles */
+
+.modal-dialog {
+    border-radius: 1rem; /* Soften edges for modal */
+    max-width: 600px; /* Limit the width to make it less wide */
+}
+
+.modal-content {
+    border-radius: 1rem; /* Soften edges for modal content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    background-color: #fff8f0; /* Light coffee-cream background */
+}
+
+.modal-header {
+    background-color: #C74E00; /* Coffee-coloured background */
+    color: #fff; /* Text colour for the header */
+    font-weight: bold; /* Make the header text bold */
+}
+
+.modal-body {
+    background-color: #f9f9f9; /* Light background for body */
+    color: #5f4b3a; /* Dark brown text for body content */
+    font-size: 1rem; /* Slightly larger text for readability */
+    padding: 2em;
+    border-radius: 0.75rem; /* Soften body */
+}
+
+.modal-footer {
+    background-color: #f9f9f9; /* Light background for footer */
+    padding: 1em;
+}
+
+.modal-footer .btn-outline-secondary {
+    border-radius: 0.5rem; /* Soften edges for the Close button */
+    border-color: #8e735b; /* Coffee-coloured border */
+    color: #8e735b; /* Coffee-coloured text */
+    background-color: transparent;
+}
+
+.modal-footer .btn-outline-danger {
+    border-radius: 0.5rem; /* Soften edges for the Delete button */
+    border-color: #8e735b; /* Coffee-coloured border */
+    color: #8e735b; /* Coffee-coloured text */
+    background-color: transparent;
+}
+
+.modal-footer .btn-outline-secondary:hover, .modal-footer .btn-outline-danger:hover {
+    background-color: #8e735b; /* Coffee background on hover */
+    color: #fff;
+}
