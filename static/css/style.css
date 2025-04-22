@@ -122,10 +122,14 @@ a {
     color: #D1C6B1;
 }
 
-.btn-signup,
+.btn-signup {
+    background-color:#D1C6B1;
+    color: #5C4033;
+}
+
 .btn-edit {
-    background-color: #5C4033;
-    color: F5F2ED;
+    background-color: #D18F2B !important;
+    color: #5C4033 !important;
 }
 
 .btn-signup:hover,
