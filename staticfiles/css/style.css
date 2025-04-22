@@ -4,6 +4,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .brand {
     font-family: 'Półtawski Nowy', serif;
     font-size: 1.4rem;
@@ -156,6 +161,18 @@ body {
     color: #C74E00;
     background: transparent;
     border: none;
+}
+
+a.custom-social {
+    color: #FFF !important;
+    text-decoration: none !important;
+    background-color: #5C4033 !important; /* or whatever you want */
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+a.custom-social i {
+    color: #FFF !important;
 }
 
 .faded {
