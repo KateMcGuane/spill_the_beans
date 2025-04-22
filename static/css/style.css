@@ -163,6 +163,18 @@ a {
     border: none;
 }
 
+a.custom-social {
+    color: #FFF !important;
+    text-decoration: none !important;
+    background-color: #5C4033 !important; /* or whatever you want */
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+a.custom-social i {
+    color: #FFF !important;
+}
+
 .faded {
     color: rgb(172, 175, 175);
 }

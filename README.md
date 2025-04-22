@@ -120,7 +120,7 @@ The target audience for this coffee blog is for those who is passionate about co
 
  ### Web-Based Services & Tools
 
- - [DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
+  - [DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
   - [Lucid Chart](https://www.lucidchart.com/pages/) - To create Entity-Relationship Diagram.
   - [Raw Pixel](https://www.rawpixel.com/) - For sourced images.
   - [Unsplash](https://unsplash.com/) - For sourced images.
@@ -250,6 +250,12 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   All external references used in this project are for educational purposes only. Any ownership of referenced materials belongs solely to the parties accredited above, or where otherwise stated by said parties.
   Smaller snippets of content such as comments were written by myself.
 
+
+  ### Documentation
+
+  The following documentation proved useful for troubleshooting attempts and handling specific alterations imposed on the Bootstrap Styling.
+  - [How to unstyle anchor when using bootstrap](https://stackoverflow.com/questions/22429881/how-to-unstyle-anchor-when-using-bootstrap)
+  - [Bootstrap - Text](https://getbootstrap.com/docs/5.0/utilities/text/#text-decoration)
 
   #### Template & README
 
