@@ -46,13 +46,13 @@
     <nav aria-label="Page navigation">
         <ul class="pagination justify-content-center">
             {% if page_obj.has_previous %}
-            <li>
-                <a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREVIOUS</a>
+            <li class="page-item mx-2">
+                <a href="?page={{ page_obj.previous_page_number }}" class="page-link rounded-3 px-4 py-2 shadow-sm bg-light text-dark border-0">&laquo; PREVIOUS</a>
             </li>
             {% endif %}
             {% if page_obj.has_next %}
-            <li>
-                <a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a>
+            <li class="page-item mx-2">
+                <a href="?page={{ page_obj.next_page_number }}" class="page-link rounded-3 px-4 py-2 shadow-sm bg-light text-dark border-0"> NEXT &raquo;</a>
             </li>
             {% endif %}
         </ul>
