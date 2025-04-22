@@ -15,16 +15,16 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top" src="{% static 'images/default.jpg' %}" alt="placeholder image">
+                                <img class="card-img-top border border-3 border-secondary rounded-3" src="{% static 'images/default.jpg' %}" alt="placeholder image">
                                 {% else %}
-                                <img class="card-img-top" src="{{ post.featured_image.url }}" alt="{{ post.title }}">
+                                <img class="card-img-top border border-3 border-secondary rounded-3" src="{{ post.featured_image.url }}" alt="{{ post.title }}">
                                 {% endif %}
-                                <div class="image-flash">
+                                <div class="image-flash rounded-3 p-1">
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
-                                <h2 class="card-title">{{ post.title }}</h2>
+                                <h2 class="card-title pt-2 pb-1">{{ post.title }}</h2>
                             </a>
                             <p class="card-text">{{ post.excerpt }}</p>
                             <hr/>
