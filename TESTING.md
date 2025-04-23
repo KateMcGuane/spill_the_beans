@@ -97,9 +97,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 | terms/urls.py | :heavy_check_mark: | [urls.py validation](documentation/testing/validation/python/terms-urls.PNG) |
 | terms/views.py | :heavy_check_mark: | [views.py validation](documentation/testing/validation/python/terms-views.PNG) |
 
-<br>
 ---
-<br>
 
 ## Lighthouse Report
 
