@@ -54,7 +54,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | Filepath | Status | Evidence |
 | :--- | :---: | :---: |
-| static/base.css | | [static/base.css validation](documentation/testing/validation/css/w3c-css-validation.PNG)  |
+| static/base.css | :heavy_check_mark: | [static/base.css validation](documentation/testing/validation/css/w3c-css-validation.PNG)  |
 
 
 ### JavaScript
@@ -63,43 +63,43 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | File | Result | Evidence |
 | :--- | :---: | :---: |
-| static/js/comments.js | Pass | [comments.js](documentation/testing/validation/js/comments.PNG)  |
+| static/js/comments.js | :heavy_check_mark: | [comments.js](documentation/testing/validation/js/comments.PNG)  |
 
 
 ### Python
 
 [Code Institute Python Linter](https://pep8ci.herokuapp.com/) was used to validate the python.
 
-| File | Result | Evidence |
+| File | Status | Evidence |
 | :--- | :---: | :---: |
 | **COFFEE** |
-| coffee/settings.py |  | [settings.py validation](documentation/testing/validation/python/coffee_settings.PNG) |
-| coffee/urls.py |  | [urls.py validation](documentation/testing/validation/python/coffee_urls.PNG) |
+| coffee/settings.py | :heavy_check_mark: | [settings.py validation](documentation/testing/validation/python/coffee-settings.PNG) |
+| coffee/urls.py | :heavy_check_mark: | [urls.py validation](documentation/testing/validation/python/coffee-urls.PNG) |
 | **BLOG** |
-| blog/admin.py |  | [apps.py validation](documentation/testing/validation/python/blog_admin.PNG) |
-| blog/apps.py |  | [apps.py validation](documentation/testing/validation/python/blog_apps.PNG) |
-| blog/forms.py |  | [forms.py validation](documentation/testing/validation/python/blog_forms.PNG) |
-| blog/models.py |  | [models.py validation](documentation/testing/validation/python/blog_models.PNG) |
-| blog/urls.py |  | [urls.py validation](documentation/testing/validation/python/blog_urls.PNG) |
-| blog/views.py |  | [views.py validation](documentation/testing/validation/python/blog_views.PNG) |
+| blog/admin.py | :heavy_check_mark: | [apps.py validation](documentation/testing/validation/python/blog-admin.PNG) |
+| blog/apps.py | :heavy_check_mark: | [apps.py validation](documentation/testing/validation/python/blog-apps.PNG) |
+| blog/forms.py | :heavy_check_mark: | [forms.py validation](documentation/testing/validation/python/blog-forms.PNG) |
+| blog/models.py | :heavy_check_mark: | [models.py validation](documentation/testing/validation/python/blog-models.PNG) |
+| blog/urls.py | :heavy_check_mark: | [urls.py validation](documentation/testing/validation/python/blog_-urls.PNG) |
+| blog/views.py | :heavy_check_mark: | [views.py validation](documentation/testing/validation/python/blog-views.PNG) |
 | **ABOUT** |
-| about/admin.py |  | [apps.py validation](documentation/testing/validation/python/about_admin.PNG) |
-| about/apps.py |  | [apps.py validation](documentation/testing/validation/python/about_apps.PNG) |
-| about/forms.py |  | [forms.py validation](documentation/testing/validation/python/about_forms.PNG) |
-| about/models.py |  | [models.py validation](documentation/testing/validation/python/about_models.PNG) |
-| about/urls.py |  | [urls.py validation](documentation/testing/validation/python/about_urls.PNG) |
-| about/views.py |  | [views.py validation](documentation/testing/validation/python/about_views.PNG) |
+| about/admin.py | :heavy_check_mark: | [apps.py validation](documentation/testing/validation/python/about-admin.PNG) |
+| about/apps.py | :heavy_check_mark: | [apps.py validation](documentation/testing/validation/python/about-apps.PNG) |
+| about/forms.py | :heavy_check_mark: | [forms.py validation](documentation/testing/validation/python/about-forms.PNG) |
+| about/models.py | :heavy_check_mark: | [models.py validation](documentation/testing/validation/python/about-models.PNG) |
+| about/urls.py | :heavy_check_mark: | [urls.py validation](documentation/testing/validation/python/about-urls.PNG) |
+| about/views.py | :heavy_check_mark: | [views.py validation](documentation/testing/validation/python/about-views.PNG) |
 | **TERMS** |
-| terms/admin.py |  | [apps.py validation](documentation/testing/validation/python/terms_admin.PNG) |
-| terms/apps.py |  | [apps.py validation](documentation/testing/validation/python/terms_apps.PNG) |
-| terms/forms.py |  | [forms.py validation](documentation/testing/validation/python/termst_forms.PNG) |
-| terms/models.py |  | [models.py validation](documentation/testing/validation/python/terms_models.PNG) |
-| terms/urls.py |  | [urls.py validation](documentation/testing/validation/python/terms_urls.PNG) |
-| terms/views.py |  | [views.py validation](documentation/testing/validation/python/terms_views.PNG) |
+| terms/admin.py | :heavy_check_mark: | [apps.py validation](documentation/testing/validation/python/terms-admin.PNG) |
+| terms/apps.py | :heavy_check_mark: | [apps.py validation](documentation/testing/validation/python/terms-apps.PNG) |
+| terms/forms.py | :heavy_check_mark: | [forms.py validation](documentation/testing/validation/python/terms-forms.PNG) |
+| terms/models.py | :heavy_check_mark: | [models.py validation](documentation/testing/validation/python/terms-models.PNG) |
+| terms/urls.py | :heavy_check_mark: | [urls.py validation](documentation/testing/validation/python/terms-urls.PNG) |
+| terms/views.py | :heavy_check_mark: | [views.py validation](documentation/testing/validation/python/terms-views.PNG) |
 
-
+<br>
 ---
-
+<br>
 
 ## Lighthouse Report
 
