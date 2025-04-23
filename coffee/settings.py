@@ -110,7 +110,8 @@ DATABASES = {
 # Ensures only requested allowed are ones from hosts in list below
 CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1:8000/",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    "https://res.cloudinary.com"
 ]
 
 # Password validation
