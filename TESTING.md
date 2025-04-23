@@ -50,11 +50,11 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 ### CSS
 
-[W3C](https://jigsaw.w3.org/css-validator/) was used to validate the CSS.
+[W3C](https://jigsaw.w3.org/css-validator/) was used to validate the CSS. The script was tested by direct input.
 
 | Filepath | Status | Evidence |
 | :--- | :---: | :---: |
-| static/base.css | | [static/base.css validation](documentation/testing/validation/css/NAME_OF_IMG.png)  |
+| static/base.css | | [static/base.css validation](documentation/testing/validation/css/w3c-css-validation.PNG)  |
 
 
 ### JavaScript
