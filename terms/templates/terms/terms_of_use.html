@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-md-4 text-center">
+            <img src="{% static 'images/coffee_logo.png' %}" width="75%" alt="Coffee Blog Logo">
+        </div>
+        <div class="col-12 col-md-8">
+            <h2>Terms of Use <strong class="brand">Spill the Beans</strong></h2>
+
+            <h4>1. Acceptance of Terms</h4>
+            <p>By accessing or using this blog, you acknowledge and agree to abide by these terms and conditions. If you do not agree, we kindly ask that you exit this site.</p>
+
+            <h4>2. Content</h4>
+            <p>All content provided on this blog is intended for informational and entertainment purposes only. Please refrain from substituting the insights shared here for professional advice, except when it comes to mastering the perfect espresso shot.</p>
+
+            <h4>3. User Conduct</h4>
+            <p>We encourage respectful and constructive interactions. Any abusive, offensive, or spam-related comments will be promptly removed to maintain a positive and welcoming environment for all users.</p>
+
+            <h4>4. Intellectual Property</h4>
+            <p>Unless otherwise credited, all content featured on this site is the property of Spill the Beans. If you wish to share our material, please ensure proper attribution and include a link back to the original content.</p>
+
+            <h4>5. Changes to Terms</h4>
+            <p>These terms may be updated periodically without prior notice. It is your responsibility to review this page regularly for any changes, similar to checking the expiration date on your coffee beans.</p>
+            
+            <h4>6. Contact</h4>
+            <p>For any inquiries, feedback, or general correspondence, please reach out to us at info@spillthebeans.com</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-end mt-4">
+            <p><em>Updated on: {{ updated_on }}</em></p>
+        </div>
+    </div>
+</div>
+{% endblock content %}
