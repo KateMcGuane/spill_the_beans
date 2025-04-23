@@ -62,7 +62,7 @@ The target audience for this coffee blog is for those who is passionate about co
 
 
   ### Imagery
-  - ![Default](https://unsplash.com/s/photos/coffee-beans?license=free)
+  Most images for this project were sourced from [Unsplash](https://unsplash.com/s/photos/coffee-beans?license=free).
 
 
 ### Wireframes
@@ -72,6 +72,12 @@ The target audience for this coffee blog is for those who is passionate about co
 #### Page3
 
 ### Database Design: Entity-Relationship Diagram (ERD)
+
+![Spill the Beans ERD](documentation/readme/design/erd-spill-the-beans.png)
+
+  - For this Django project I used the PostgreSQL relational database management system.
+  - This outlines where the different databases have relationships to one another through foreign and primary keys. It also highlights isolated databases.
+  - On reflection, this could be enhanced further with User as a foreign key for most models displayed here.
 
 
 ---
@@ -100,10 +106,11 @@ The target audience for this coffee blog is for those who is passionate about co
 
   | Feature | Description |
   | --- | --- |
+  | Database | Create stronger relationships through the various models. |
   | Photo Gallery | Featured on the About page in carousel format. |
   | 404 Page | Add custom 404 page. |
   | Recipes | Isolate the blog types into two different sections of the blog within the navigation bar. |
-  | E-commerce | Integrating e-commerce to the website, selling products that are coffee adjacent. Hopefully this would afford the blog to run ad-free, thereby making it a more enjoyable user experience.
+  | E-commerce | Integrating e-commerce to the website, selling products that are coffee adjacent. Hopefully this would afford the blog to run ad-free, thereby making it a more enjoyable user experience. |
 
 
   ### Accessibility
@@ -125,8 +132,8 @@ The target audience for this coffee blog is for those who is passionate about co
 
   - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - To add content & structure.
   - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - To add the styles and layout of the site.
-  - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  - [Python](https://www.python.org/)
+  - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - To give functionality to the features.
+  - [Python](https://www.python.org/) - Version 3.12.10
 
 
   ### Database
@@ -152,6 +159,8 @@ The target audience for this coffee blog is for those who is passionate about co
   - [psycopg2](https://pypi.org/project/psycopg2/) - A postgres database adapter which allowed to connect with the postgres database.
   - [White Noise](https://pypi.org/project/whitenoise/) - A solution for serving CSS, JavaScript & static images.
 
+  To view any additional dependencies not mentioned, view requirements.txt
+
 
   ### Programs
 
@@ -172,7 +181,6 @@ The target audience for this coffee blog is for those who is passionate about co
  ### Web-Based Services & Tools
 
   - [DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
-  - [Lucid Chart](https://www.lucidchart.com/pages/) - To create Entity-Relationship Diagram.
   - [Raw Pixel](https://www.rawpixel.com/) - For sourced images.
   - [Unsplash](https://unsplash.com/) - For sourced images.
   - [WAVE](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) - A Chrome extension used to evaluate web accessibility within the browser.
@@ -278,7 +286,7 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   | Entry Type | Sourced From | Entry Title |
   | --- | --- | --- |
   | About Page | [ChatGPT](https://chat.openai.com/) & own content writing | "Welcome to <em>Spill the Beans</em>" |
-  | Blog | [Amber Everywhere](https://ambereverywhere.com/best-coffee-shops-in-cork-city-ireland/) | "11 Best Coffee Shops In Cork, Ireland (2024)" |
+  | Blog General | [Amber Everywhere](https://ambereverywhere.com/best-coffee-shops-in-cork-city-ireland/) | "11 Best Coffee Shops In Cork, Ireland (2024)" |
   | | [Artemis Blog](https://artemis.coffee/blog/history-of-coffee-top-5-most-influential-people/) | "Inventing Coffee Paper Filter" |
   | | [ChatGPT](https://chat.openai.com/) | "A Brew of Her Own: The Story of Ava Brewster in the World of Coffee" |
   | | | "Coffee Trends 2024" |
@@ -292,11 +300,12 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
   | | | "The Story of Coffee: How I Discovered the Magic Beans" |
   | | | "The Ultimate Guide to Coffee Brewing Methods: Finding Your Perfect Cup" |
   | | [National Coffee Association USA Website](https://www.ncausa.org/About-Coffee/What-is-Coffee) | "What is Coffee?" | 
-  | Recipe | [BBC Good Food](https://www.bbcgoodfood.com/recipes/coffee-cake) | "Coffee Cake" |
+  | Blog Recipe | [BBC Good Food](https://www.bbcgoodfood.com/recipes/coffee-cake) | "Coffee Cake" |
   | | [BBC Good Food](https://www.bbcgoodfood.com/recipes/coffee-cocktails) | "The Ultimate Coffee Cocktail" |
   | | [ChatGPT](https://chat.openai.com/) | "The Dalgona Coffee Craze: How to Make This Frothy Delight at Home" |
   | | | "The Ultimate Coffee Cocktail" (Introduction) |
   | | [SuperValu](https://supervalu.ie/recipes/classic-irish-coffee) | "Classic Irish Coffee" |
+  | Terms of Use | [ChatGPT](https://chat.openai.com/) | "Terms of Use" |
 
   All external references used in this project are for educational purposes only. Any ownership of referenced materials belongs solely to the parties accredited above, or where otherwise stated by said parties.
   Smaller snippets of content such as comments were written by myself.
@@ -317,11 +326,10 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
 ### Markup
 
-  The markup outline for this project was taken from the following README files:
-  - [Kate McGuane / nine-lives](https://github.com/KateMcGuane/nine-lives).
-  - [Kera Cudmore / BookWorm](https://github.com/kera-cudmore/BookWorm?tab=readme-ov-file).
-  - [Kera Cudmore / seaside-sewing](https://github.com/kera-cudmore/seaside-sewing) - for README.md & TESTING.md.
-  - [rockroman / CI_PP4-Knowledge-Flow](https://github.com/rockroman/CI_PP4-Knowledge-Flow/blob/main/README.md) - for README.md & TESTING.md.
+  The markup outline for this project was taken from the following README and TESTING files:
+  - [Kate McGuane / nine-lives](https://github.com/KateMcGuane/nine-lives)
+  - [Kera Cudmore / seaside-sewing](https://github.com/kera-cudmore/seaside-sewing)
+  - [rockroman / CI_PP4-Knowledge-Flow](https://github.com/rockroman/CI_PP4-Knowledge-Flow/blob/main/README.md)
 
 
 ###  Acknowledgments
