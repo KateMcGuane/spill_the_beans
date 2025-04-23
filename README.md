@@ -35,6 +35,10 @@ The target audience for this coffee blog is for those who is passionate about co
   - ensure community guidelines are being upheld.
 
 
+### Agile
+
+Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/views/1) for my use of agile methodology.
+
 ---
 
 
@@ -67,9 +71,36 @@ The target audience for this coffee blog is for those who is passionate about co
 
 ### Wireframes
 
-#### Page1
-#### Page2
-#### Page3
+#### About
+![About Desktop](documentation/readme/wireframes/about-desktop.png)
+![About Tablet](documentation/readme/wireframes/about-tablet.png)
+![About Mobile](documentation/readme/wireframes/about-mobile.png)
+
+#### Blog Home
+![Blog Desktop](documentation/readme/wireframes/blog-desktop.png)
+![Blog Tablet](documentation/readme/wireframes/blog-tablet.png)
+![Blog Mobile](documentation/readme/wireframes/blog-mobile.png)
+
+#### Blog Detail
+![Blog Detail Desktop](documentation/readme/wireframes/blog-detail-desktop.png)
+![Blog Detail Tablet](documentation/readme/wireframes/blog-detail-tablet.png)
+![Blog Detail Mobile](documentation/readme/wireframes/blog-detail-mobile.png)
+
+#### Contact Form
+![contact Form Desktop](documentation/readme/wireframes/contact-form-desktop.png)
+![contact Form Desktop](documentation/readme/wireframes/contact-form-tablet.png)
+![contact Form Desktop](documentation/readme/wireframes/contact-form-mobile.png)
+
+#### Login
+![Login Desktop](documentation/readme/wireframes/login-desktop.png)
+![Login Tablet](documentation/readme/wireframes/login-tablet.png)
+![Login Mobile](documentation/readme/wireframes/login-mobile.png)
+
+#### Register
+![Register Desktop](documentation/readme/wireframes/register-desktop.png)
+![Register Tablet](documentation/readme/wireframes/register-tablet.png)
+![Register Mobile](documentation/readme/wireframes/register-mobile.png)
+
 
 ### Database Design: Entity-Relationship Diagram (ERD)
 
