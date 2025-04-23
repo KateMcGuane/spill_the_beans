@@ -108,38 +108,25 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 
 | Page | Result |
 | :--- | :--- |
-| Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Products Page | ![Products Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Product Details Page | ![Product Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Add Product Page | ![Add Product Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Edit Product Page | ![Edit Product Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Bag Page | ![Bag Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Checkout Page | ![Checkout Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Checkout Success Page | ![Checkout Success Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Profile Page | ![Profile Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Contact Us Page | ![Contact Us Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Privacy Policy Page| ![Privacy Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Terms & Conditions Page | ![Terms Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
-| Delivery Policy Page | ![Delivery Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/NAME_OF_IMG.png) |
+| Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+| About Page | ![About Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+| Blog Detail Page | ![Blog Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+| Register Page | ![Register Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+| Login Page | ![Login Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+| Terms of Use Page | ![Terms of Use Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+
 
 
 ### Mobile Results
 
 | Page | Result |
 | :--- | :--- |
-| Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Products Page | ![Products Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Product Details Page | ![Product Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Add Product Page | ![Add Product Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Edit Product Page | ![Edit Product Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Bag Page | ![Bag Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Checkout Page | ![Checkout Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Checkout Success Page | ![Checkout Success Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Profile Page | ![Profile Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Contact Us Page | ![Contact Us Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Privacy Policy Page| ![Privacy Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png)  |
-| Terms & Conditions Page | ![Terms Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
-| Delivery Policy Page | ![Delivery Desktop Lighthouse Testing](documentation/testing/lighthouse/mobile/NAME_OF_IMG.png) |
+| Home Page | ![Home Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile)
+| About Page | ![About Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
+| Blog Detail Page | ![Blog Detail Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
+| Register Page | ![Register Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
+| Login Page | ![Login Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
+| Terms of Use Page | ![Terms of Use Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
 
 
 ---
@@ -307,6 +294,7 @@ The following elements were tested manually on each of the browsers:
 | 4 | Hero image on About page was filling the background & overlaying with the text | On revision of this project, this issue was only being rendered on the deployed version (images 1 & 2) & not visible when running the server during development (images 3 & 4) | See bug #5 for resolution | ![Hero Image Deployed Desktop](documentation/testing/bugs/hero-image-bug-desktop.PNG) <br> ![Hero Image Deployed Mobile](documentation/testing/bugs/hero-image-bug-mobile.PNG) <br> ![Hero Image Server Desktop](documentation/testing/bugs/hero-image-desktop.PNG) <br> ![Hero Image Server Mobile](documentation/testing/bugs/hero-image-mobile.PNG) |
 | 5 | As per bug #4, many of the CSS features were not displaying as intended, nor were they the same as what was displaying when running the site from the server <br>  | - Investigated the dependencies, and needed to ensure they were being implemented correctly <br> - Ensured that ```DISABLE_COLLECTSTATIC:1``` was not in use on Heroku <br> - I discovered that the style.css from both the static directory and staticfiles directory were different <br> The staticfiles directory had not been updated with the changes made to static <br> - Ran ```python manage.py collectstatic``` in the terminal <br> style.css in staticfiles was now reflecting what was in the static directory, however it was not having the desired effect on the deployed version <br> - Cleared the cache - no changes <br> - Open Dev Tools &rarr; Right-click reload icon &rarr; "Empty Cache and Hard Reload" - no changes | - Ran ```rm -r staticfiles/*```followed by ```python manage.py collectstatic``` in the terminal <br> - Issue was resolved after this attempt when re-deployed; The deployed version was now reflecting the desired CSS | ![Unwanted CSS](documentation/testing/bugs/css-static-bug-deployed.PNG) <br> ![Intended CSS](documentation/testing/bugs/css-static-bug-server.PNG) |
 | 6 | Change in `static/css/style.css` not reflecting when developing project (after set up of staticfiles with whitenoise) | - Refreshing the browser ``Ctrl + Shift + R`` <br> - ``Ctrl + F5`` for a hard refresh to clear the cache & fetch the latest version <br> - Applied "dummy" styling such as high contrast backgrounds to see if it would show up <br> - Consulted Google & ChatGPT | Similarly with bug #4 & #5, the command <br> ```python manage.py collectstatic``` <br> - Updated to the most recent, and desired styling <br> - Ultimately discovered that I had my DEBUG=False, which was preventing the update unless I manually ran the aforementioned command |  |
+| 7 | Poor Lighthouse across the website | - Reduced file sizes using webtools such as [TinyPNG](https://tinypng.com/) & [ImageResizer.com](https://imageresizer.com/). This helped pefomance somewhat <br> - Add preconnect/dns-prefetch in to the base template. This had the opposite effect and the performance dropped even lower. <br> - Insert ```https://res.cloudinary.com``` to ``CSRF_TRUSTED_ORIGINS`` |  |  |
 
 <br>
 
