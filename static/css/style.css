@@ -64,6 +64,10 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+title {
+    color: #3B2C35;
+}
+
 .masthead {
     margin-top: 10px;
     overflow: hidden;

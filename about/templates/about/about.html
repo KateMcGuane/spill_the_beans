@@ -5,15 +5,15 @@
 {% block content %}
 <div class="container mt-5">
     <div class="row">
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center p-3">
             {% if "placeholder" in about.profile_image.url %}
-            <img src="{% static 'images/nobody.jpg' %}" width="75%" alt="placeholder image">
+            <img src="{% static 'images/nobody.jpg' %}" width="75%" alt="placeholder image" class="border border-3 border-secondary rounded-3">
             {% else %}
-            <img src="{{ about.profile_image.url }}" width="75%" alt="{{ about.title }}">
+            <img src="{{ about.profile_image.url }}" width="75%" alt="{{ about.title }}" class="border border-3 border-secondary rounded-3">
             {% endif %}
         </div>
-        <div class="col-12 col-md-8">
-            <h2>{{ about.title }}</h2>
+        <div class="col-12 col-md-8 p-2">
+            <h2 class="title">{{ about.title }}</h2>
             {{ about.content | safe }}
         </div>
     </div>
@@ -26,7 +26,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 my-5">
-            <h2>Let's collaborate!</h2>
+            <h2 class="title">Let's collaborate!</h2>
             <p>I believe in the power of shared knowledge and collective effort.
                 Whether you have a project in mind, wish to co-author
                 an article, or simply want to brainstorm some ideas,
@@ -38,7 +38,7 @@
             <form method="post">
                 {{ collaborate_form | crispy }}
                 {% csrf_token %}
-                <button class="btn btn-secondary" type="submit">Submit</button>
+                <button class="btn btn-secondary btn-signup rounded-3" type="submit">Submit</button>
             </form>
         </div>
     </div>
