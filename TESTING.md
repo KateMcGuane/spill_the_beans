@@ -41,17 +41,16 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | Page | Status | Evidence |
 | :--- | :---: | :---: |
-| Home |   | [Home Page Validation](documentation/testing/validation/html.NAME_OF_IMG.png) |
-| About |   | [About Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
-| Register |   | [Register Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
-| Login |   | [Login Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
-| 404 |   | [Home Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
-| *Custom* |   | [Custom Page Validation](documentation/testing/validation/html/NAME_OF_IMG.png) |
+| Home |   | [Home Page Validation](documentation/testing/validation/html/home.png) |
+| About |   | [About Page Validation](documentation/testing/validation/html/about.png) |
+| Register |   | [Register Page Validation](documentation/testing/validation/html/register.png) |
+| Login |   | [Login Page Validation](documentation/testing/validation/html/login.png) |
+| Terms of Use |   | [Custom Page Validation](documentation/testing/validation/html/terms-of-use.png) |
 
 
 ### CSS
 
-[W3C](https://validator.w3.org/) was used to validate the CSS.
+[W3C](https://jigsaw.w3.org/css-validator/) was used to validate the CSS.
 
 | Filepath | Status | Evidence |
 | :--- | :---: | :---: |
@@ -64,9 +63,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | File | Result | Evidence |
 | :--- | :---: | :---: |
-| file/as/found/in/directory/filename.js | Pass | [filename.js](documentation/testing/validation/js/NAME_OF_IMG.png)  |
-| file/as/found/in/directory/filename.js | Pass | [filename.js](documentation/testing/validation/js/NAME_OF_IMG.png)  |
-| file/as/found/in/directory/filename.js | Pass | [filename.js](documentation/testing/validation/js/NAME_OF_IMG.png)  |
+| static/js/comments.js | Pass | [comments.js](documentation/testing/validation/js/comments.PNG)  |
 
 
 ### Python
@@ -75,33 +72,30 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | File | Result | Evidence |
 | :--- | :---: | :---: |
-| custom_storages.py | Pass | [custom_storages.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| **SEASIDE_SEWING** |
-| seaside_sewing/settings.py | Pass | [settings.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| seaside_sewing/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| **HOME** |
-| home/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| home/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| home/views.py | Pass | [views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| home/test_views.py | Pass | [test_views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| **PROFILES** |
-| profiles/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| profiles/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| profiles/models.py | Pass | [models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| profiles/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| profiles/views.py | Pass | [views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| profiles/test_views.py | Pass | [test_views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| profiles/test_models.py | Pass | [test_models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| **CONTACT** |
-| contact/admin.py | Pass |[admin.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| contact/apps.py | Pass | [apps.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| contact/forms.py | Pass | [forms.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| contact/models.py | Pass | [models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| contact/urls.py | Pass | [urls.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| contact/views.py | Pass | [views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| contact/test_forms.py | Pass | [test_forms.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
-| contact/test_models.py | Pass | [test_models.py validation](documentation/testing/validation/python/NAME_OF_IMG.png)|
-| contact/test_views.py | Pass | [test_views.py validation](documentation/testing/validation/python/NAME_OF_IMG.png) |
+| **COFFEE** |
+| coffee/settings.py |  | [settings.py validation](documentation/testing/validation/python/coffee_settings.PNG) |
+| coffee/urls.py |  | [urls.py validation](documentation/testing/validation/python/coffee_urls.PNG) |
+| **BLOG** |
+| blog/admin.py |  | [apps.py validation](documentation/testing/validation/python/blog_admin.PNG) |
+| blog/apps.py |  | [apps.py validation](documentation/testing/validation/python/blog_apps.PNG) |
+| blog/forms.py |  | [forms.py validation](documentation/testing/validation/python/blog_forms.PNG) |
+| blog/models.py |  | [models.py validation](documentation/testing/validation/python/blog_models.PNG) |
+| blog/urls.py |  | [urls.py validation](documentation/testing/validation/python/blog_urls.PNG) |
+| blog/views.py |  | [views.py validation](documentation/testing/validation/python/blog_views.PNG) |
+| **ABOUT** |
+| about/admin.py |  | [apps.py validation](documentation/testing/validation/python/about_admin.PNG) |
+| about/apps.py |  | [apps.py validation](documentation/testing/validation/python/about_apps.PNG) |
+| about/forms.py |  | [forms.py validation](documentation/testing/validation/python/about_forms.PNG) |
+| about/models.py |  | [models.py validation](documentation/testing/validation/python/about_models.PNG) |
+| about/urls.py |  | [urls.py validation](documentation/testing/validation/python/about_urls.PNG) |
+| about/views.py |  | [views.py validation](documentation/testing/validation/python/about_views.PNG) |
+| **TERMS** |
+| terms/admin.py |  | [apps.py validation](documentation/testing/validation/python/terms_admin.PNG) |
+| terms/apps.py |  | [apps.py validation](documentation/testing/validation/python/terms_apps.PNG) |
+| terms/forms.py |  | [forms.py validation](documentation/testing/validation/python/termst_forms.PNG) |
+| terms/models.py |  | [models.py validation](documentation/testing/validation/python/terms_models.PNG) |
+| terms/urls.py |  | [urls.py validation](documentation/testing/validation/python/terms_urls.PNG) |
+| terms/views.py |  | [views.py validation](documentation/testing/validation/python/terms_views.PNG) |
 
 
 ---
@@ -315,7 +309,6 @@ The following elements were tested manually on each of the browsers:
 | 4 | Hero image on About page was filling the background & overlaying with the text | On revision of this project, this issue was only being rendered on the deployed version (images 1 & 2) & not visible when running the server during development (images 3 & 4) | See bug #5 for resolution | ![Hero Image Deployed Desktop](documentation/testing/bugs/hero-image-bug-desktop.PNG) <br> ![Hero Image Deployed Mobile](documentation/testing/bugs/hero-image-bug-mobile.PNG) <br> ![Hero Image Server Desktop](documentation/testing/bugs/hero-image-desktop.PNG) <br> ![Hero Image Server Mobile](documentation/testing/bugs/hero-image-mobile.PNG) |
 | 5 | As per bug #4, many of the CSS features were not displaying as intended, nor were they the same as what was displaying when running the site from the server <br>  | - Investigated the dependencies, and needed to ensure they were being implemented correctly <br> - Ensured that ```DISABLE_COLLECTSTATIC:1``` was not in use on Heroku <br> - I discovered that the style.css from both the static directory and staticfiles directory were different <br> The staticfiles directory had not been updated with the changes made to static <br> - Ran ```python manage.py collectstatic``` in the terminal <br> style.css in staticfiles was now reflecting what was in the static directory, however it was not having the desired effect on the deployed version <br> - Cleared the cache - no changes <br> - Open Dev Tools &rarr; Right-click reload icon &rarr; "Empty Cache and Hard Reload" - no changes | - Ran ```rm -r staticfiles/*```followed by ```python manage.py collectstatic``` in the terminal <br> - Issue was resolved after this attempt when re-deployed; The deployed version was now reflecting the desired CSS | ![Unwanted CSS](documentation/testing/bugs/css-static-bug-deployed.PNG) <br> ![Intended CSS](documentation/testing/bugs/css-static-bug-server.PNG) |
 | 6 | Change in `static/css/style.css` not reflecting when developing project (after set up of staticfiles with whitenoise) | - Refreshing the browser ``Ctrl + Shift + R`` <br> - ``Ctrl + F5`` for a hard refresh to clear the cache & fetch the latest version <br> - Applied "dummy" styling such as high contrast backgrounds to see if it would show up <br> - Consulted Google & ChatGPT | Similarly with bug #4 & #5, the command <br> ```python manage.py collectstatic``` <br> - Updated to the most recent, and desired styling <br> - Ultimately discovered that I had my DEBUG=False, which was preventing the update unless I manually ran the aforementioned command |  |
-| 7 | "11 Best Coffee Shops in Cork, Ireland" blog post had a paragraph with a different background colour from the rest of the entry. |  |  | ![Background Inconsistency](documentation/testing/bugs/paragraph-background-colour.PNG) |
 
 <br>
 
