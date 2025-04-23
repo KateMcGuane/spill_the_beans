@@ -80,7 +80,7 @@ The target audience for this coffee blog is for those who is passionate about co
 ## Features
 
 | Feature | Detail | Screenshots |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 **General Features**
 | Favicon | This feature was generated from the [Font Awesome 6](https://fontawesome.com/) library and is displayed in the navigation bar. The favicon was converted using [Favicon.io](https://favicon.io/favicon-converter/) to help illustrate the browser tab. |  |
 | Navbar | The navbar is a simple design that remains consistent across all pages. On smaller screens a burger icon replaces all navbar items for a clear display that's easy to navigate. |  |
