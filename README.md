@@ -38,19 +38,32 @@ The target audience for this coffee blog is for those who is passionate about co
 ---
 
 
-## UX Design
+## Design
 
-### Colour Scheme
+  ### Colour Scheme
 
-The following colours were used for optimum use of contrast, with a selection of rich earthy tones, and subtle neutrals.
+  The following colours were used for optimum use of contrast and harmony, with a selection of rich earthy tones, and subtle neutrals.
+  ![Coffee Colour Palette 1](documentation/readme/design/coffee-palette-1.PNG)
+  ![Coffee Colour Palette 2](documentation/readme/design/coffee-palette-2.PNG)
+
+  Both colour palettes were created using the [Coolors](https://coolors.co/) website.
+
+  ### Typography
+
+  ![Poppins](documentation/readme/design/poppins.PNG)
+
+  This is a legible, sans serif font with many varieties of weight to choose from. It is versatile and accomodates all structural styling needs. It is a very accessible font, and easy to read. This is used for more word heavy content sections of the website.
+
+  ![Półtawski Nowy](documentation/readme/design/półtawski-nowy.PNG)
+
+  This is a more stylised font that was used for features such as the title in the navbar. A different font was chosen so the name of the website stood out from the rest of the text.
+
+  Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 
-### Typography
+  ### Imagery
+  - ![Default](https://unsplash.com/s/photos/coffee-beans?license=free)
 
-### Imagery
-- ![Default](https://unsplash.com/s/photos/coffee-beans?license=free)
-
-### Favicon
 
 ### Wireframes
 
