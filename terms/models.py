@@ -3,6 +3,9 @@ from django.db import models
 
 # Create your models here.
 class TermsOfUse(models.Model):
+    """"
+    Represents the Terms of Use for the application.
+    """
     title = models.CharField(max_length=255)
     content = models.TextField()
     updated_on = models.DateTimeField(auto_now=True)
