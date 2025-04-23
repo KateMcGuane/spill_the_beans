@@ -42,6 +42,9 @@ The target audience for this coffee blog is for those who is passionate about co
 
 ### Colour Scheme
 
+The following colours were used for optimum use of contrast, with a selection of rich earthy tones, and subtle neutrals.
+
+
 ### Typography
 
 ### Imagery
@@ -63,6 +66,41 @@ The target audience for this coffee blog is for those who is passionate about co
 
 ## Features
 
+| Feature | Detail | Screenshots |
+| --- | --- | --- | --- |
+**General Features**
+| Favicon | This feature was generated from the [Font Awesome 6](https://fontawesome.com/) library and is displayed in the navigation bar. The favicon was converted using [Favicon.io](https://favicon.io/favicon-converter/) to help illustrate the browser tab. |  |
+| Navbar | The navbar is a simple design that remains consistent across all pages. On smaller screens a burger icon replaces all navbar items for a clear display that's easy to navigate. |  |
+| Footer | The footer is once again simple with social icons. Each icon can be clicked an will open the relative social media platform in another tab. |  |
+||||
+**Isolated Features**
+| Home Page | - Acts as the main blog post page and the general landing page of the site. All blog posts are organised in pagination for clear visibilty. <br> On smaller screens, the pagination is adjusted to render the posts stacked vertically. <br> - There is a "Next" and "Previous" button featured at the end of the page whereby a user can easily navigate to and from the various paginated posts. <br> - When a registered user is logged in, they can comment, edit or delete posts. |  |
+| About Page | Gives a description of what the page is about. |  |
+| Registration Page | - Simple in design, so as not to confuse the user. <br> -There are a clear set of instructions on how to register. <br> - The user is remined that all fields need to be completed for succesful registration. <br> Once registered the user can engage in all general user CRUD functionality. |  |
+| Login Page | - A purely functional and clear page for user to sign in. <br> - There is an active link for those who are not registerd, that will redirect them to the correct page. |  |
+
+
+
+  ### Potential Future Developments
+
+  Due to time constraints, I have some remaining features that were not essential to the MVP, however would have been a nice addition to the overall website. The following will be executed in future iterations.
+
+  | Feature | Description |
+  | --- | --- |
+  | Photo Gallery | Featured on the About page in carousel format. |
+  | 404 Page | Add custom 404 page. |
+  | Recipes | Isolate the blog types into two different sections of the blog within the navigation bar. |
+  | E-commerce | Integrating e-commerce to the website, selling products that are coffee adjacent. Hopefully this would afford the blog to run ad-free, thereby making it a more enjoyable user experience.
+
+
+  ### Accessibility
+
+  The entire website was designed with a responsive-first ethos in mind. Some best practices implemented were:
+
+   - Using semantic HTML.
+   - Good used of colour contrast throughout the website.
+   - Use of aria labels where.
+   - All pages are responsive for various media screen sizes.
 
 
 ---
@@ -95,7 +133,7 @@ The target audience for this coffee blog is for those who is passionate about co
   - [Crispy Bootstrap5](https://pypi.org/project/crispy-bootstrap5/) - An extension pack for Crispy Forms, allowing it to render Django forms using Bootstrap 5 styles.
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/2.0/) - To build easily customisable forms.
   - [Django Summernote](https://pypi.org/project/django-summernote/) - The rich text editor built for the web, was used to allow users to write and format text in a way that looks similar to how it will appear on the final page.
-  - [Font Awesome 6](https://fontawesome.com/) - For up-to-date icon creation.
+  - [Font Awesome 6](https://fontawesome.com/) - For up-to-date icon creation (socials & favicon tab).
   - [Google Fonts](https://fonts.google.com/) - To extract fonts for the website.
   - [gunicorn](https://pypi.org/project/gunicorn/) - A Python WSGI HTTP Server, was used to help deploy the Django project.
   - [psycopg2](https://pypi.org/project/psycopg2/) - A postgres database adapter which allowed to connect with the postgres database.
