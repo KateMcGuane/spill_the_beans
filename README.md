@@ -214,7 +214,8 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
   - [DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
   - [ImageResizer.com](https://imageresizer.com/) - To compress images.
   - [Raw Pixel](https://www.rawpixel.com/) - For sourced images.
-  - [TinyPNG]ps://tinypng.com/ - To compress images.
+  - [Stack Overflow](https://stackoverflow.com/) - For troubleshooting.
+  - [TinyPNG](https://tinypng.com/) - To compress images.
   - [Unsplash](https://unsplash.com/) - For sourced images.
   - [WAVE](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) - A Chrome extension used to evaluate web accessibility within the browser.
 
