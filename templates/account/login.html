@@ -7,12 +7,12 @@
 
 {% block content %}
 
-<div class="container">
+<div class="container py-5">
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2">
             <h3>{% trans "Sign In" %}</h3>
 
-            <p>{% blocktrans %}Welcome back to the <em>Spill The Beans</em> blog. To leave a comment or like a post, please log in. If
+            <p>{% blocktrans %}Welcome back to the <strong class="brand">Spill The Beans</strong> blog. To leave a comment or like a post, please log in. If
                 you
                 have not created an account yet, then <a class="link" href="{{ signup_url }}">sign up</a>
                 first.{% endblocktrans %}</p>
@@ -26,7 +26,7 @@
                 {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                 {% endif %}
-                <button class="btn btn-signup right" type="submit">{% trans "Sign In" %}</button>
+                <button class="btn btn-signup btn-lg rounded-3 right" type="submit">{% trans "Sign In" %}</button>
             </form>
         </div>
     </div>
