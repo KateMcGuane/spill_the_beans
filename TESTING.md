@@ -41,11 +41,11 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | Page | Status | Evidence |
 | :--- | :---: | :---: |
-| Home |   | [Home Page Validation](documentation/testing/validation/html/home.png) |
-| About |   | [About Page Validation](documentation/testing/validation/html/about.png) |
-| Register |   | [Register Page Validation](documentation/testing/validation/html/register.png) |
-| Login |   | [Login Page Validation](documentation/testing/validation/html/login.png) |
-| Terms of Use |   | [Custom Page Validation](documentation/testing/validation/html/terms-of-use.png) |
+| Home | :heavy_check_mark: | [Home Page Validation](documentation/testing/validation/html/home.PNG) |
+| About | :heavy_check_mark: | [About Page Validation](documentation/testing/validation/html/about.PNG) |
+| Register | :grey_exclamation: | [Register Page Validation](documentation/testing/validation/html/signup-errors.PNG
+| Login | :heavy_check_mark: | [Login Page Validation](documentation/testing/validation/html/login.PNG) |
+| Terms of Use | :heavy_check_mark: | [Terms Page Validation](documentation/testing/validation/html/terms.PNG) |
 
 
 ### CSS
