@@ -101,7 +101,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 ## Lighthouse Report
 
-Google's Lightouse was used to test the performance, accessibility, best practices ad SEO of the site. In order to adhere to best practices, these tests were performed in an incognito window.
+Google's Lightouse was used to test the performance, accessibility, best practices ad SEO of the site. In order to adhere to best practices, these tests were performed in an incognito window. On initial testing and troubleshooting, a regular browser was used.
 
 
 ### Desktop Results
@@ -113,6 +113,7 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 | Blog Detail Page | ![Blog Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
 | Register Page | ![Register Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
 | Login Page | ![Login Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+| Sign Out Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
 | Terms of Use Page | ![Terms of Use Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
 
 
@@ -126,6 +127,7 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 | Blog Detail Page | ![Blog Detail Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
 | Register Page | ![Register Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
 | Login Page | ![Login Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
+| Sign Out Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
 | Terms of Use Page | ![Terms of Use Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
 
 
@@ -287,6 +289,8 @@ The following elements were tested manually on each of the browsers:
 
 ### Resolved Bugs 
 
+Please note that bugs #4 through #6 stemmed from the same underlying issue. However, the order in which I addressed them was crucial to uncovering the root cause described in bug #6.
+
 | # | Bug | Troubleshooting Attempts | How I solved the issue | Evidence |
 | --- | --- | --- | --- | --- |
 | 1 | About app not loading in server: Server Error (500) | - Ensure all file & directory paths are laid out correctly <br> - Compare steps taken with that of the lesson module <br> - Use diffchecker to compare snippets of code <br> - Delete About app & start process again <br> - Consult Google <br> - Consult tutor support | - Create a new database(db) <br> - Update env.py with new db <br> - Ensure all migrations were applied <br> - Delete old db from db manager <br> - Run command 'python3 manage.py loaddata db.json' in terminal | ![About App](documentation/testing/bugs/about-app.png) |
@@ -294,8 +298,10 @@ The following elements were tested manually on each of the browsers:
 | 3 | Bug #2 was fully responsive when logged in as admin | Resolved the issue as outlined in bug #2 | See bug #2 | ![Comments Refresh Backend](documentation/testing/bugs/refresh-comment-bug-backend.PNG) <br> ![Comments Refresh Fix](documentation/testing/bugs/refresh-comment-fix-backend.PNG) |
 | 4 | Hero image on About page was filling the background & overlaying with the text | On revision of this project, this issue was only being rendered on the deployed version (images 1 & 2) & not visible when running the server during development (images 3 & 4) | See bug #5 for resolution | ![Hero Image Deployed Desktop](documentation/testing/bugs/hero-image-bug-desktop.PNG) <br> ![Hero Image Deployed Mobile](documentation/testing/bugs/hero-image-bug-mobile.PNG) <br> ![Hero Image Server Desktop](documentation/testing/bugs/hero-image-desktop.PNG) <br> ![Hero Image Server Mobile](documentation/testing/bugs/hero-image-mobile.PNG) |
 | 5 | As per bug #4, many of the CSS features were not displaying as intended, nor were they the same as what was displaying when running the site from the server <br>  | - Investigated the dependencies, and needed to ensure they were being implemented correctly <br> - Ensured that ```DISABLE_COLLECTSTATIC:1``` was not in use on Heroku <br> - I discovered that the style.css from both the static directory and staticfiles directory were different <br> The staticfiles directory had not been updated with the changes made to static <br> - Ran ```python manage.py collectstatic``` in the terminal <br> style.css in staticfiles was now reflecting what was in the static directory, however it was not having the desired effect on the deployed version <br> - Cleared the cache - no changes <br> - Open Dev Tools &rarr; Right-click reload icon &rarr; "Empty Cache and Hard Reload" - no changes | - Ran ```rm -r staticfiles/*```followed by ```python manage.py collectstatic``` in the terminal <br> - Issue was resolved after this attempt when re-deployed; The deployed version was now reflecting the desired CSS | ![Unwanted CSS](documentation/testing/bugs/css-static-bug-deployed.PNG) <br> ![Intended CSS](documentation/testing/bugs/css-static-bug-server.PNG) |
-| 6 | Change in `static/css/style.css` not reflecting when developing project (after set up of staticfiles with whitenoise) | - Refreshing the browser ``Ctrl + Shift + R`` <br> - ``Ctrl + F5`` for a hard refresh to clear the cache & fetch the latest version <br> - Applied "dummy" styling such as high contrast backgrounds to see if it would show up <br> - Consulted Google & ChatGPT | Similarly with bug #4 & #5, the command <br> ```python manage.py collectstatic``` <br> - Updated to the most recent, and desired styling <br> - Ultimately discovered that I had my DEBUG=False, which was preventing the update unless I manually ran the aforementioned command |  |
-| 7 | Poor Lighthouse across the website | - Reduced file sizes using webtools such as [TinyPNG](https://tinypng.com/) & [ImageResizer.com](https://imageresizer.com/). This helped performance somewhat <br> - Add preconnect/dns-prefetch in to the base template. This had the opposite effect and the performance dropped even lower. <br> - Insert ```https://res.cloudinary.com``` to ``CSRF_TRUSTED_ORIGINS`` - Highlighted that the intrinsic size of the images being rendered could be reduced. I did this using the reszing tool on Canva |  | [Cloudinary Preconnect](documentation/testing/bugs/cloudinary-preconnect.PNG) <br> [Cloudinary Add CSRF](documentation/testing/bugs/cloudinary-add-to-csrf.PNG) <br> [Intrinsic Resizing](documentation/testing/bugs/intrinsic-resizing.PNG) |
+| 6 | Change in `static/css/style.css` not reflecting when developing project (after set up of staticfiles with whitenoise) | - Refreshing the browser ``Ctrl + Shift + R`` <br> - ``Ctrl + F5`` for a hard refresh to clear the cache & fetch the latest version <br> - Applied "dummy" styling such as high contrast backgrounds to see if it would show up <br> - Consulted Google & ChatGPT | Similarly with bug #4 & #5, the command <br> ```python manage.py collectstatic``` <br> - Updated to the most recent, and desired styling <br> - Ultimately discovered that I had my ``DEBUG=False``, which was preventing the update unless I manually ran the aforementioned command |  |
+| 7 | Poor Lighthouse performance across the webpages with images | - Compressed file sizes the webtool [ImageResizer.com](https://imageresizer.com/) <br> This helped performance somewhat <br> - Add preconnect/dns-prefetch in to the base template. This had the opposite effect and the performance dropped even lower. <br> - Insert ```https://res.cloudinary.com``` to ``CSRF_TRUSTED_ORIGINS`` <br> I later undid this step as it made no difference to the results <br> - During a tutoring session it was highlighted to me that the intrinsic size of the images being rendered could be reduced. I took the original images once more, reduced the intrinsic size, & compressed each one using [ImageResizer.com](https://imageresizer.com/) <br> This improved the peformance score somewhat. See bug #8 for further resolve|  | ![Cloudinary Preconnect](documentation/testing/bugs/cloudinary-preconnect.PNG) <br> ![Cloudinary Add CSRF](documentation/testing/bugs/cloudinary-add-to-csrf.PNG) <br> ![Intrinsic Resizing](documentation/testing/bugs/intrinsic-resizing.PNG) <br> ![Resizing Suggestions](documentation/testing/bugs/resizing-suggestions.PNG) |
+| 8 | Poor Lighthouse Best Practices across the webpages with images | - Using Dev Tools, it showed that Cloudinary was throwing a ``Does not use HTTPS`` warning. This was because Cloudinary, by default, uses HTTPS for it's URLs | - Tutoring Session: <br> 1. Import cloudinary at top of `settings.py` <br> 2. Set ``cloudinary.config(secure=True)`` in `settings.py`, forcing Cloudinary to only use https <br> | ![Best Practices Lighthouse](documentation/testing/bugs/best-practices.PNG) <br> ![Best Practices Fix](documentation/testing/bugs/home-desktop.PNG) <br> ![Incognito Best Practices](documentation/testing/bugs/home-desktop-incognito.PNG) |
+| 9 | Contrast Errors were being shown |  |  | ![Contrast Errors](documentation/testing/bugs/wave-contrast-errors.PNG) |
 
 <br>
 
