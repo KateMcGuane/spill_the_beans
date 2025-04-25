@@ -14,8 +14,14 @@ from pathlib import Path
 import os
 from django.contrib.messages import constants as messages
 import dj_database_url
+import cloudinary
 if os.path.isfile('env.py'):
     import env
+
+
+cloudinary.config(
+    secure=True
+)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
