@@ -1,4 +1,4 @@
-+# Spill The Beans - Testing
+# Spill The Beans - Testing
 
 Visit the deployed site: [Spill The Beans](https://spill-the-beans-coffee-blog-8f04f8c6207f.herokuapp.com/)
 
@@ -43,9 +43,12 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 | :--- | :---: | :---: |
 | Home | :heavy_check_mark: | [Home Page Validation](documentation/testing/validation/html/home.PNG) |
 | About | :heavy_check_mark: | [About Page Validation](documentation/testing/validation/html/about.PNG) |
-| Register | :grey_exclamation: | [Register Page Validation](documentation/testing/validation/html/signup-errors.PNG
+| Register | :grey_exclamation: | [Register Page Validation](documentation/testing/validation/html/signup-errors.PNG) |
 | Login | :heavy_check_mark: | [Login Page Validation](documentation/testing/validation/html/login.PNG) |
 | Terms of Use | :heavy_check_mark: | [Terms Page Validation](documentation/testing/validation/html/terms.PNG) |
+||||
+
+- See documented bugs for more information on Registration.
 
 
 ### CSS
@@ -174,8 +177,11 @@ WAVE(Web Accessibility Evaluation Tool) allows developers to create content that
 | 14 | Potential collaborator | fill in a contact form | submit a request for collaboration. | The site owner can be contacted when someone wishes to collaborate. | [Contact Form](documentation/testing/user-stories/NAME_OF_IMG.png) |
 | 15 | Site Owner | store collaboration requests in the database | review them. | All collaboration requests submitted are stores in the database where they can be reviewed. | [Store & Review Collaboration Requests](documentation/testing/user-stories/NAME_OF_IMG.png) |
 | 16 | Site Owner | mark collaboration requests as "read" | see how many I still need to process. | The site owner can see the progress made on collaboration requests at a glance, and can manage the processing of these requests. | [Collaboration Requests "Read"](documentation/testing/user-stories/NAME_OF_IMG.png) |
+<br>
+
 
 Further documentation for developing these user stories can be found through my [Github Projects](https://github.com/users/KateMcGuane/projects/3/views/1) showcasing my use of agile methodology.
+
 
 ### Features Testing
 
@@ -290,6 +296,7 @@ The following elements were tested manually on each of the browsers:
 ### Resolved Bugs 
 
 Please note that bugs #4 through #6 stemmed from the same underlying issue. However, the order in which I addressed them was crucial to uncovering the root cause described in bug #6.
+<br>
 
 | # | Bug | Troubleshooting Attempts | How I solved the issue | Evidence |
 | --- | --- | --- | --- | --- |
@@ -302,12 +309,12 @@ Please note that bugs #4 through #6 stemmed from the same underlying issue. Howe
 | 7 | Poor Lighthouse performance across the webpages with images | - Compressed file sizes the webtool [ImageResizer.com](https://imageresizer.com/) <br> This helped performance somewhat <br> - Add preconnect/dns-prefetch in to the base template. This had the opposite effect and the performance dropped even lower. <br> - Insert ```https://res.cloudinary.com``` to ``CSRF_TRUSTED_ORIGINS`` <br> I later undid this step as it made no difference to the results <br> - During a tutoring session it was highlighted to me that the intrinsic size of the images being rendered could be reduced. I took the original images once more, reduced the intrinsic size, & compressed each one using [ImageResizer.com](https://imageresizer.com/) <br> This improved the peformance score somewhat. See bug #8 for further resolve|  | ![Cloudinary Preconnect](documentation/testing/bugs/cloudinary-preconnect.PNG) <br> ![Cloudinary Add CSRF](documentation/testing/bugs/cloudinary-add-to-csrf.PNG) <br> ![Intrinsic Resizing](documentation/testing/bugs/intrinsic-resizing.PNG) <br> ![Resizing Suggestions](documentation/testing/bugs/resizing-suggestions.PNG) |
 | 8 | Poor Lighthouse Best Practices across the webpages with images | - Using Dev Tools, it showed that Cloudinary was throwing a ``Does not use HTTPS`` warning. This was because Cloudinary, by default, uses HTTPS for it's URLs | - Tutoring Session: <br> 1. Import cloudinary at top of `settings.py` <br> 2. Set ``cloudinary.config(secure=True)`` in `settings.py`, forcing Cloudinary to only use https <br> | ![Best Practices Lighthouse](documentation/testing/bugs/best-practices.PNG) <br> ![Best Practices Fix](documentation/testing/bugs/home-desktop.PNG) <br> ![Incognito Best Practices](documentation/testing/bugs/home-desktop-incognito.PNG) |
 | 9 | Contrast Errors were being shown |  |  | ![Contrast Errors](documentation/testing/bugs/wave-contrast-errors.PNG) |
+||||||
 
-<br>
 
 ### Unresolved Bugs
 
-There are no known bugs at this time.
-
 | # | Bug | Troubleshooting Attempts | How I solved the issue | Evidence |
 | --- | --- | --- | --- | --- |
+| 1 | Errors shown as per evidence shown | - Combed through all relevant HTML files to see where the highlighted elements that could be the cause of the issue <br> - There were no such elements as being indicated on the page, so I was unsure as to where they were coming from | - Contacted tutor support and it was illustrated that it could be an existing bug from allAuth <br> - Please note that the issues relating to the Registration page were brought to the attention of Student Care & was advised to submit nonetheless | ![Register Page Validation](documentation/testing/validation/html/signup-errors.PNG) |
+||||||
