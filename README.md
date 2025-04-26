@@ -2,7 +2,7 @@
 
 Spill The Beans is a ficticious coffee blog. It is the ultimate online destination for coffee enthusiasts, connoisseurs, and casual sippers alike. Whether you're a seasoned barista, a home-brewing hobbyist, or someone just starting their coffee journey, our blog offers something for everyone who loves the rich, aromatic world of coffee.
 
-![Spill The Beans](https://spill-the-beans-coffee-blog-8f04f8c6207f.herokuapp.com/)
+The deployed site, [Spill The Beans](https://spill-the-beans-coffee-blog-8f04f8c6207f.herokuapp.com/).
 
 ## User Experience
 
@@ -46,7 +46,10 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
 
   ### Colour Scheme
 
-  The following colours were used for optimum use of contrast and harmony, with a selection of rich earthy tones, and subtle neutrals.
+  The following colours were used for this website design. Colour Palette 1 forms the base colours of the website, with a selection of rich earthy tones, and subtle neutrals.<br> Colour Palette 2 was used for highlighting and bringing optimum contrast of colours to the more neutral palette.
+  
+  <br>
+
   ![Coffee Colour Palette 1](documentation/readme/design/coffee-palette-1.PNG)
   ![Coffee Colour Palette 2](documentation/readme/design/coffee-palette-2.PNG)
 
