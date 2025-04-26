@@ -145,6 +145,7 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
   | 404 Page | Add custom 404 page. |
   | Recipes | Isolate the blog types into two different sections of the blog within the navigation bar. |
   | E-commerce | Integrating e-commerce to the website, selling products that are coffee adjacent. Hopefully this would afford the blog to run ad-free, thereby making it a more enjoyable user experience. |
+  | Navigation Bar | With the addition of more offerings to the website, the 'Home' navbar would be replaced with 'Blogs', and separate out the different types of blogs by category. |
 
 
   ### Accessibility
