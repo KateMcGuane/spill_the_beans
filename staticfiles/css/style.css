@@ -16,6 +16,13 @@ a {
     color: #5C4033;
 }
 
+.brand-lg {
+    font-family: 'Półtawski Nowy', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #5C4033;
+}
+
 .red-o {
     color: #C74E00;
 }
@@ -51,6 +58,11 @@ a {
     min-width: 30%;
     left: -2px;
     background-color: #73503C;
+}
+
+.text-slight-contrast {
+    color: #36454F !important;
+    font-weight: 400 !important;
 }
 
 .scale {
@@ -151,6 +163,23 @@ title {
 .link:active {
     color: #5C4033;
     text-decoration: underline;
+}
+
+.external-link,
+.social-link {
+    color: #D1C6B1;
+    text-decoration: none;
+}
+
+.external-link:hover,
+.external-link:active {
+    color: #C5A880;
+    text-decoration: underline;
+}
+
+.social-link:hover,
+.social-link:active {
+    color: #D18F2B;
 }
 
 .btn-like {
