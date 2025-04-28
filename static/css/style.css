@@ -278,8 +278,17 @@ a.custom-social i {
     color: #fff;
 }
 
-.terms {
+.terms-title {
     background-color: rgba(209, 143, 43, 0.7);
-    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.8rem;
     border-radius: 0.5rem;
+}
+
+.terms-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }

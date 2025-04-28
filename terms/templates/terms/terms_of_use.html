@@ -4,9 +4,13 @@
 {% block content %}
 <div class="container mt-5">
     <div class="row">
-        <div class="col-12 col-md-8 p-2">
-            <h2 class="terms">{{ terms.title }}</h2>
-            {{ terms.content|safe }}
+        <div class="col-12 col-md-8 p-2 pb-3 px-5 terms">
+            <div class="terms-title">
+                <h2>{{ terms.title }}</h2>
+            </div>
+            <div class="terms-content">
+                {{ terms.content|safe }}
+            </div>
         </div>
     </div>
     <div class="row">
