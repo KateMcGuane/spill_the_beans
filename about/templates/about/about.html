@@ -12,9 +12,14 @@
             <img src="{{ about.profile_image.url }}" alt="{{ about.title }}" class="border border-3 border-secondary rounded-3 w-75">
             {% endif %}
         </div>
-        <div class="col-12 col-md-8 p-2">
-            <h2 class="title">{{ about.title }}</h2>
-            {{ about.content | safe }}
+        <div class="col-12 col-md-8 p-2 pb-3 px-5">
+            <div>
+                <h2 class="title">{{ about.title }}</h2>
+            </div>
+            <div class="about-content">
+                {{ about.content | safe }}
+
+            </div>
         </div>
     </div>
     <div class="row">
