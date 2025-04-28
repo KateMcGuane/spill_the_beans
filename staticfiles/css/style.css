@@ -23,6 +23,13 @@ a {
     color: #5C4033;
 }
 
+.brand-terms {
+    font-family: 'Półtawski Nowy', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #5C4033;
+}
+
 .red-o {
     color: #C74E00;
 }
@@ -271,6 +278,22 @@ a.custom-social i {
     color: #fff;
 }
 
-.terms {
-    color: #D18F2B;
+.terms-title {
+    background-color: rgba(209, 143, 43, 0.7);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.terms-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-content {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
