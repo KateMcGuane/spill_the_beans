@@ -30,6 +30,37 @@ a {
     color: #5C4033;
 }
 
+.navbar-styles {
+    background-color: #C5A880;
+}
+
+.navbar-slogan {
+    color: #3B2C35 !important;
+    text-shadow: 2px 2px 4px rgba(209, 198, 177, 1) !important;
+}
+
+.navbar .nav-link.nav-text-custom {
+    color: #3B2C35 !important;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, font-weight 0.3s ease;
+}
+
+/* Hover & focus navbar links */
+.navbar .nav-link.nav-text-custom:hover,
+.navbar .nav-link.nav-text-custom:focus {
+    background-color: #E2C8AA !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Active link style navbar links */
+.navbar .nav-link.nav-text-custom.active {
+    background-color: #E2C8AA !important;
+    font-weight: 700;
+}
+
 .red-o {
     color: #C74E00;
 }
