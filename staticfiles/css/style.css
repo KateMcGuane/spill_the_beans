@@ -11,14 +11,21 @@ a {
 
 .brand {
     font-family: 'Półtawski Nowy', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #3B2C35;
+}
+
+.brand-md {
+    font-family: 'Półtawski Nowy', serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #5C4033;
+    color: #3B2C35;
 }
 
 .brand-lg {
     font-family: 'Półtawski Nowy', serif;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 700;
     color: #5C4033;
 }
@@ -36,7 +43,6 @@ a {
 
 .navbar-slogan {
     color: #3B2C35 !important;
-    text-shadow: 2px 2px 4px rgba(209, 198, 177, 1) !important;
 }
 
 .navbar .nav-link.nav-text-custom {
@@ -44,6 +50,7 @@ a {
     font-weight: 400;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+    margin: 0.2rem;
     transition: background-color 0.3s ease, font-weight 0.3s ease;
 }
 
@@ -59,6 +66,15 @@ a {
 .navbar .nav-link.nav-text-custom.active {
     background-color: #E2C8AA !important;
     font-weight: 700;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+}
+
+.navbar-toggler .fa-bars {
+    color: #3B2C35;
 }
 
 .red-o {
@@ -176,25 +192,10 @@ title {
     color: #D1C6B1;
 }
 
-.btn-signup {
-    background-color:#D1C6B1;
-    color: #5C4033;
-}
-
-.btn-edit {
-    background-color: #D18F2B !important;
-    color: #5C4033 !important;
-}
-
-.btn-signup:hover,
-.btn-signup:active {
-    background-color: #c5a880;
-    color: #3B2C35;
-}
-
 .link {
-    color: #D18F2B;
+    color: #BF4102;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .link:hover,
@@ -203,32 +204,33 @@ title {
     text-decoration: underline;
 }
 
+/* Footer styles */
+.footer {
+    background-color: #C5A880;
+    color: #3B2C35 !important;
+    padding: 1rem 0;
+}
+
 .external-link,
 .social-link {
-    color: #D1C6B1;
+    color: #3B2C35;
     text-decoration: none;
 }
 
 .external-link:hover,
-.external-link:active {
-    color: #C5A880;
-    text-decoration: underline;
-}
-
+.external-link:active,
 .social-link:hover,
 .social-link:active {
     color: #D18F2B;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #3B2C35;
 }
 
+/* Button styles */
 .btn-like {
     color: #C74E00;
     border: none;
     background: transparent;
-}
-
-.btn-delete {
-    color: #F5F2ED;
-    background: #C74E00;
 }
 
 .btn-like:hover,
@@ -238,17 +240,28 @@ title {
     border: none;
 }
 
-a.custom-social {
-    color: #FFF !important;
-    text-decoration: none !important;
-    background-color: #5C4033 !important; /* or whatever you want */
-    padding: 0.25rem;
-    border-radius: 5px;
+.btn-signup {
+    background-color:#D1C6B1;
+    color: #5C4033;
 }
 
-a.custom-social i {
-    color: #FFF !important;
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #c5a880;
+    color: #3B2C35;
 }
+
+.btn-delete {
+    color: #FFFDF6;
+    background: #761B07;
+}
+
+.btn-edit {
+    background-color: #5CA880 !important;
+    color: #3B2C35 !important;
+}
+
+/* Message styles */
 
 .faded {
     color: rgb(172, 175, 175);
@@ -258,8 +271,7 @@ a.custom-social i {
     color: rgb(222, 146, 168);
 }
 
-/* Modal styles */
-
+/* Modal styles - Blog Post Detail */
 .modal-dialog {
     border-radius: 1rem; /* Soften edges for modal */
     max-width: 600px; /* Limit the width to make it less wide */
@@ -309,8 +321,9 @@ a.custom-social i {
     color: #fff;
 }
 
+/* Terms of Use */
 .terms-title {
-    background-color: rgba(209, 143, 43, 0.7);
+    background-color: rgba(197, 168, 128, 0.7);
     font-size: 2rem;
     font-weight: bold;
     padding: 0.8rem;
@@ -327,4 +340,20 @@ a.custom-social i {
 .about-content {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .social-link i {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .social-link i {
+        font-size: 1.8rem;
+    }
 }
