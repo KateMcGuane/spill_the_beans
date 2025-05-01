@@ -7,7 +7,7 @@
         <div class="row g-0 border border-3 border-secondary rounded-3">
             <div class="col-md-6 masthead-text">
                 <!-- Post title goes in these h1 tags -->
-                <h1 class="post-title">{{ post.title }}</h1>
+                <h2 class="post-title">{{ post.title }}</h2>
                 <!-- Post author goes before the | the post's created date goes after -->
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
@@ -37,7 +37,7 @@
     <!-- Displaying count of comments -->
     <div class="row">
         <div class="col-12">
-            <strong class="text-secondary">
+            <strong class="text-slight-contrast">
                 <i class="far fa-comments"></i> {{ comment_count }}
             </strong>
         </div>
@@ -55,7 +55,7 @@
                 <div class="p-3 comments {% if not comment.approved and comment.author == user %} faded{% elif not comment.approved %} d-none{% endif %}">
                     <p class="font-weight-bold mb-2">
                         {{ comment.author }}
-                            <span class="font-weight-normal text-muted">
+                            <span class="text-slight-contrast">
                                 {{ comment.created_on }}
                             </span> wrote:
                     </p>
