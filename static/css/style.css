@@ -16,6 +16,13 @@ a {
     color: #3B2C35;
 }
 
+.brand-md {
+    font-family: 'Półtawski Nowy', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #3B2C35;
+}
+
 .brand-lg {
     font-family: 'Półtawski Nowy', serif;
     font-size: 2.6rem;
