@@ -11,9 +11,9 @@ a {
 
 .brand {
     font-family: 'Półtawski Nowy', serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    color: #5C4033;
+    color: #3B2C35;
 }
 
 .brand-lg {
@@ -186,8 +186,9 @@ title {
 }
 
 .link {
-    color: #D18F2B;
+    color: #BF4102;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .link:hover,
