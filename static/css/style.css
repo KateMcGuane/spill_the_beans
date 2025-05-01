@@ -18,7 +18,7 @@ a {
 
 .brand-lg {
     font-family: 'Półtawski Nowy', serif;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 700;
     color: #5C4033;
 }
@@ -36,7 +36,6 @@ a {
 
 .navbar-slogan {
     color: #3B2C35 !important;
-    text-shadow: 2px 2px 4px rgba(209, 198, 177, 1) !important;
 }
 
 .navbar .nav-link.nav-text-custom {
@@ -213,23 +212,29 @@ title {
     text-decoration: underline;
 }
 
+/* Footer styles */
+.footer {
+    background-color: #C5A880;
+    color: #3B2C35 !important;
+    padding: 1rem 0;
+}
+
 .external-link,
 .social-link {
-    color: #D1C6B1;
+    color: #3B2C35;
     text-decoration: none;
 }
 
 .external-link:hover,
-.external-link:active {
-    color: #C5A880;
-    text-decoration: underline;
-}
-
+.external-link:active,
 .social-link:hover,
 .social-link:active {
     color: #D18F2B;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #3B2C35;
 }
 
+/* Button styles */
 .btn-like {
     color: #C74E00;
     border: none;
@@ -268,8 +273,7 @@ a.custom-social i {
     color: rgb(222, 146, 168);
 }
 
-/* Modal styles */
-
+/* Modal styles - Blog Post Detail */
 .modal-dialog {
     border-radius: 1rem; /* Soften edges for modal */
     max-width: 600px; /* Limit the width to make it less wide */
@@ -338,4 +342,20 @@ a.custom-social i {
 .about-content {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .social-link i {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .social-link i {
+        font-size: 1.8rem;
+    }
 }
