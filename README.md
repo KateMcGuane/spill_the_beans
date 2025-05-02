@@ -63,13 +63,13 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
 
   ![Półtawski Nowy](documentation/readme/design/półtawski-nowy.PNG)
 
-  This is a more stylised font that was used for features such as the title in the navbar. A different font was chosen so the name of the website stood out from the rest of the text.
+  - This is a more stylised font that was used for features such as the title in the navbar. A different font was chosen so the name of the website stood out from the rest of the text.
 
-  Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
+  - Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 
   ### Imagery
-  Most images for this project were sourced from [Unsplash](https://unsplash.com/s/photos/coffee-beans?license=free).
+  Images for this project were sourced from [Unsplash](https://unsplash.com/s/photos/coffee-beans?license=free).
 
 
 ### Wireframes
@@ -174,7 +174,7 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
   ### Database
 
   - [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/) was used as the PostgreSQL database for this project.
-  - [Heroku App](https://www.heroku.com/)
+  - [Heroku App](https://www.heroku.com/) was used to host the site.
 
 
   ### Frameworks
@@ -216,6 +216,7 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
  ### Web-Based Services & Tools
 
   - [DrawSQL.app](https://drawsql.app/) - Used to create the database schema.
+  - [Ezgif.com](https://ezgif.com/maker) - Used to create gif of accumulative images.
   - [ImageResizer.com](https://imageresizer.com/) - To resize & compress images.
   - [Raw Pixel](https://www.rawpixel.com/) - For sourced images.
   - [Stack Overflow](https://stackoverflow.com/) - For troubleshooting.
