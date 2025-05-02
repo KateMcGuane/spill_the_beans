@@ -9,7 +9,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 ## Validation Testing
 
 <details>
-  <summary>Result Key</summary>
+  <summary>Status Key</summary>
   <table>
     <thead>
       <tr>
@@ -32,7 +32,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
       </tr>
     </tbody>
   </table>
-  </details>
+</details>
 
 
 ### HTML
@@ -46,8 +46,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 | Terms of Use | :heavy_check_mark: | [Terms Page Validation](documentation/testing/validation/html/terms.PNG) |
 | Register | :grey_exclamation: | [Register Page Validation](documentation/testing/validation/html/signup-errors.PNG) |
 | Login | :heavy_check_mark: | [Login Page Validation](documentation/testing/validation/html/login.PNG) |
-| Logout |  | [Logout Page Validation](documentation/testing/validation/html/logout.PNG) |
-||||
+| Logout | :heavy_check_mark: | [Logout Page Validation](documentation/testing/validation/html/logout.PNG) |
 
 - See documented bugs for more information on Registration.
 
@@ -65,7 +64,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 [JS Hint](https://jshint.com/) was used to validate the JavaScript.
 
-| File | Result | Evidence |
+| File | Status | Evidence |
 | :--- | :---: | :---: |
 | static/js/comments.js | :heavy_check_mark: | [comments.js](documentation/testing/validation/js/comments.PNG)  |
 
@@ -202,7 +201,7 @@ Further documentation for developing these user stories can be found through my 
 ||||||
 | **FOOTER** |
 | Social Media Icons | Open the social page in a new browser tab. | Clicked each icon. | Social page opened in a new browser tab. | :heavy_check_mark: |
-| Social Icon Responsiveness | The icons adjust size depending on large or small screen. |  Checked site's responsiveness using Dev Tools. | :heavy_check_mark: |
+| Social Icon Responsiveness | The icons adjust size depending on large or small screen. |  Checked site's responsiveness using Dev Tools. | Size of icon adjusts with smaller or larger screens. | :heavy_check_mark: |
 | Kate McGuane Link | Takes the user to my Github Profile in a new browser tab. | Clicked link. | Github profile opened in a new tab. | :heavy_check_mark: |
 | Footer Responsiveness | The footer sections should become stacked on smaller screens. | Looked at site on smaller screens. | Sections of footer became stacked. | :heavy_check_mark: |
 ||||||
@@ -228,30 +227,11 @@ Further documentation for developing these user stories can be found through my 
 ||||||
 | **LOGIN PAGE** |||||
 | Login to account | Upon successfully filling out all required fields, the user is signed in to their account. | Filled out required fields & clicked "Log In" button. | Login was successful. | :heavy_check_mark: |
-| Refused Login. | Left required fields empty or entered in the wrong information. | Login refused, & user is informed of what steps to take in order to rectify the issue. | :heavy_check_mark: |
+| Refused Login | Not allowed to sign in until all fields are filled. | Left required fields empty or entered in the wrong information. Clicked "Sign In". | Login refused, & user is informed of what steps to take in order to rectify the issue. | :heavy_check_mark: |
 | Register account | User does not have an account and wishes to create one. | Clicked built-in "Sign Up" link. | Redirected to Registration page instead. | :heavy_check_mark: |
 ||||||
 | **LOGOUT PAGE** |||||
 | Logout of account | The user can sign out of their account. | Click "Sign Out" when prompted. | Logout was successful. | :heavy_check_mark: |
-||||||
-
-
-**NOT_SURE_IF_I_WILL_TEST_ALL_OF_THESE_FEATURES_FOR_THIS_WEBSITE**
-
-| **PROFILE PAGE** |||||
-| Update default delivery information | Once the user has filled in the default delivery information they wish to store and clicked the update button, the information should be saved and be available in their profile and at checkout | Add default delivery information, save and then check the information displays in their profile and at checkout | Page reloads with the updated information pre-populated and a success toast is displayed to let the user know their profile was updated successfully | Pass |
-| View previous orders made from my account | Users should be able to click on the first part of their order number in the order history section and be taken to the checkout success page for that order. A toast will also inform the user that they are viewing a previous order summary for the order number | Clicked on an order number | The checkout success page is displayed with the order summary and an alert toast is displayed letting the user know this is a past confirmation for the order number | Pass |
-||||||
-| **CONTACT US FORM** |||||
-| Form Validation | If the user doesn't fill in the required fields and tries to submit the form, they will be shown a tooltip letting them know they need to fill in the required fields | Submit the form without filling in the required fields | Tooltip lets me know which fields I need to fill in | Pass |
-| Send contact form | Once sent the user should be shown the contact page with a message thanking them for their enquiry and giving them a button to view the latest deals. A toast should also be displayed letting them know their enquiry was sent successfully | Fill in the contact form and clicked send. | Contact us page displays with thank you message and toast displayed letting me know enquiry was sent successfully. | Pass |
-| **SUPERUSER OPTIONS**|||||
-| Account icon Product management dropdown link | This links should only be displayed to a superuser. When clicked, the superuser will be taken to the add product page. If a regular user tries to manually view this page by using the url, they are not able to view the page and an error toast displays to let them know only administrators can perform that task. | Signed in as superuser and clicked the link. Signed in as a regular user and added the url into the address bar. | Link only shown to superuser. Superusers are taken to the add product page. Regular users are shown an error toast that informs them only administrators can perform that action. | Pass |
-| Add Product Form Validation | The form will only be submitted and the new product created if the required fields have been filled in | Tried to submit the form without filling in all required fields | Tooltips let me know which fields need to still be filled in | Pass |
-| New product created saved in the products section of the admin page | When a product is created, a record of it should also be displayed in the products section of the admin page | Create a new product, navigate to the admin products section | We can see the record created for the new product | Pass |
-| Edit Product Link | This link should only be shown when logged in as a superuser. When the edit link is clicked (either on the products page or from the product detail page) superusers are taken to the edit product page. If a regular user tries to manually access the edit page using the url, they are given an error toast letting them know only administrators can perform that action | Clicked the Edit link as a superuser.  Logged in as regular user and manually enter the url into the address bar. | The edit link is only shown when logged in as a superuser. Superusers are shown the edit product page and regular users are shown an error toast letting them know that only administrators have permission to perform that action. | Pass |
-| Delete Product Link | This link should only be shown to superusers. when clicked a superuser should be shown a modal asking them to confirm they would like to delete the product, and reminds them that this action cannot be undone. If a regular user tries to manually access this page using the url, they should be shown an error toast telling them they cannot perform the action. | Clicked the link as a superuser. Manually accessed the url as a regular user. | This link is only shown to superusers. The superuser is shown a modal that asks if they are sure they want to delete the product as this action cannot be undone. Regular users are shown an error toast letting them know that only administrators can perform that action | Pass |
-| Contact form sent | All contact forms submitted to the site are stored in the contact form section of the admin page. It will display the name, email address, phone number (if filled in) and message, and will also detail the date of the contact along with a replied checkbox to enable the admin to keep track of whether they have responded | Open the admin page and navigate to the contact form section, select a contact email and view the information. | Information is displayed about the users name, email address, phone number (if entered), message sent and the date it was sent along with a checkbox for replied. | Pass |
 
 
 ---
