@@ -141,15 +141,15 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 
 WAVE(Web Accessibility Evaluation Tool) allows developers to create content that is more accessible to users with disabilities. It does this by identifying accessibility and WGAC errors.
 
-| Page | Errors |
-| :--- | :--- |
-| Home Page | No errors|
-| Profile Page |No errors. It is showing 1 low contrast warning, however I am unable to find where it is as the badge for the contract warning is not actually displaying on the page |
-| Contact Us Page | No errors |
-| Privacy Policy Page| No errors |
-| Terms & Conditions Page | No errors |
-| Delivery Policy Page | No errors |
-| 404 Error Page | No errors |
+| Page | Errors | Evidence |
+| :--- | :--- | :--- |
+| Home Page | No errors | [Home Page Wave](documentation/testing/wave/home.PNG) |
+| About Page | No errors | [About Page Wave](documentation/testing/wave/about.PNG) |
+| Blog Detail Page | No errors | [Blog Detail Page Wave](documentation/testing/blog-detail.PNG) | 
+| Register Page | No errors | [Register Page Wave](documentation/testing/wave/register.PNG) |
+| Login Page | No errors | [Login Page Wave](documentation/testing/wave/login.PNG) |
+| Logout Page | No errors | [Logout Page Wave](documentation/testing/wave/logout.PNG) |
+| Terms of Use Page | No errors | [Terms Page Wave](documentation/testing/wave/terms.PNG) |
 
 
 ---
