@@ -111,13 +111,13 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 
 | Page | Result |
 | :--- | :--- |
-| Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
-| About Page | ![About Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
-| Blog Detail Page | ![Blog Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
-| Register Page | ![Register Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
-| Login Page | ![Login Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
-| Sign Out Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
-| Terms of Use Page | ![Terms of Use Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/) |
+| Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/home-desktop.PNG) |
+| About Page | ![About Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/about-desktop.PNG) |
+| Blog Detail Page | ![Blog Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/blog-detail-desktop.PNG) |
+| Register Page | ![Register Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/register-desktop.PNG) |
+| Login Page | ![Login Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/login-desktop.PNG) |
+| Logout Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/desktop/logout-desktop.PNG) |
+| Terms of Use Page | ![Terms of Use Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/terms-desktop.PNG) |
 
 
 
@@ -125,13 +125,13 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 
 | Page | Result |
 | :--- | :--- |
-| Home Page | ![Home Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile)
-| About Page | ![About Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
-| Blog Detail Page | ![Blog Detail Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
-| Register Page | ![Register Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
-| Login Page | ![Login Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
-| Sign Out Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
-| Terms of Use Page | ![Terms of Use Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile
+| Home Page | ![Home Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/home-mobile.PNG) |
+| About Page | ![About Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/about-mobile.PNG) |
+| Blog Detail Page | ![Blog Detail Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/blog-detail-mobile.PNG) |
+| Register Page | ![Register Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/register-mobile.PNG) |
+| Login Page | ![Login Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/login-mobile.PNG) |
+| Logout Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/logout-mobile.PNG) |
+| Terms of Use Page | ![Terms of Use Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/terms-mobile.PNG) |
 
 
 ---
