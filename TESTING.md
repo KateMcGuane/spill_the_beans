@@ -188,24 +188,24 @@ Further documentation for developing these user stories can be found through my 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :--- | :--- | :--- | :--- | :--- |
 | **NAVBAR** |
-| Website Logo | Redirects to the assigned landing page. | Ensure another navbar tab is clicked. Click Logo. | Redirects correctly. |  |
-| Home | Redirects user to Home page. | Ensure another navbar tab is clicked. Click Home tab. | Redirects correctly. |  |
-| About | Redirects user to About page. | Ensure another navbar tab is clicked. Click About tab. | Redirects correctly. |  |
-| Register | Redirects user to Registration page. | Ensure another navbar tab is clicked. Click Register tab. | Redirects correctly. |  |
-| Login | Redirects user to Login page. | Ensure another navbar tab is clicked. Click Login tab. | Redirects correctly. |  |
-| **Custom** | Redirects user to **Custom** page. | Ensure another navbar tab is clicked. Click **Custom** tab. | Redirects correctly. |  |
-| Navbar Responsiveness | Navbar should be displayed using a hamburger menu toggle on smaller screens. | Checked the site on smaller screens. | Navbar is displayed using a hamburger menu toggle. |  |
+| Website Logo | Redirects to the assigned landing page. | Ensure another navbar tab is clicked. Click Logo. | Redirects correctly. | :heavy_check_mark: |
+| Home | Redirects user to Home page. | Ensure another navbar tab is clicked. Click Home tab. | Redirects correctly. | :heavy_check_mark: |
+| About | Redirects user to About page. | Ensure another navbar tab is clicked. Click About tab. | Redirects correctly. | :heavy_check_mark: |
+| Terms of Use | Redirects user to Terms of Use page. | Ensure another navbar tab is clicked. Click Terms of Use tab. | Redirects correctly. | :heavy_check_mark: |
+| Register | Redirects user to Registration page. | Ensure another navbar tab is clicked. Click Register tab. | Redirects correctly. | :heavy_check_mark: |
+| Login | Redirects user to Login page. | Ensure another navbar tab is clicked. Click Login tab. | Redirects correctly. | :heavy_check_mark: |
+| Logout | Redirects user to Logout page. | Ensure another navbar tab is clicked. Click Logout tab. | Redirects correctly. | :heavy_check_mark: |
 ||||||
 | **FOOTER** |
-| Social Media Icons | Open the social page in a new browser tab. | Clicked each icon. | Social page opened in a new browser tab. |  |
-| Kate McGuane Link | Takes the user to my Github Profile in a new browser tab. | Clicked link. | Github profile opened in a new tab. |  |
-| Footer Responsiveness | The footer sections should become stacked on smaller screens. | Looked at site on smaller screens. | Sections of footer became stacked. |  |
+| Social Media Icons | Open the social page in a new browser tab. | Clicked each icon. | Social page opened in a new browser tab. | :heavy_check_mark: |
+| Kate McGuane Link | Takes the user to my Github Profile in a new browser tab. | Clicked link. | Github profile opened in a new tab. | :heavy_check_mark: |
+| Footer Responsiveness | The footer sections should become stacked on smaller screens. | Looked at site on smaller screens. | Sections of footer became stacked. | :heavy_check_mark: |
 ||||||
 | **HOME (BLOG) PAGE** |||||
-| Blog Posts | Click "Next" or "Prev" to move between blog post pages. | Click desired buttons. | The next page of blog posts are displayed. |  |
-| | Click on blog post title to view the entire post. | Click blog post title. | Redirected to desired blog post. |  |
-| | Can click on comments to view full thread (where applicable). | Click comments icon. |  |
-| | Can login from bottom of blog post. | Click 'Login to leave a comment'. | Redirected to login page. |  |
+| Blog Posts | Click "Next" or "Prev" to move between blog post pages. | Click desired buttons. | The next or previous page of blog posts are displayed & redirect as desired. | :heavy_check_mark: |
+|  | Click on blog post title to view the entire post. | Click blog post title. | Redirected to desired blog post. | :heavy_check_mark: |
+|  | Can click on comments to view full thread (where applicable). | Click comments icon. |  |
+|  | Can login from bottom of blog post. | Click 'Login to leave a comment'. | Redirected to login page. |  |
 ||||||
 | **ABOUT PAGE** |||||
 | Collaboration Form | Form will not submit if required fields are not filled. | Click "Submit" without filling required fields. | Submission would not work unless all required fields were filled. |  |
@@ -221,6 +221,8 @@ Further documentation for developing these user stories can be found through my 
 | Refused Login. | Left required fields empty or entered in the wrong information. | Login refused, & user is informed of what steps to take in order to rectify the issue. |  |
 | Register account | User does not have an account and wishes to create one. | Clicked build in "Sign Up" link. | Redirected to registration page instead. |  |
 ||||||
+| **TERMS OF USE PAGE** | Redirects user to **Custom** page. | Ensure another navbar tab is clicked. Click **Custom** tab. | Redirects correctly. |  |
+| Navbar Responsiveness | Navbar should be displayed using a hamburger menu toggle on smaller screens. | Checked the site on smaller screens. | Navbar is displayed using a hamburger menu toggle. |  |
 
 
 **NOT_SURE_IF_I_WILL_TEST_ALL_OF_THESE_FEATURES_FOR_THIS_WEBSITE**
