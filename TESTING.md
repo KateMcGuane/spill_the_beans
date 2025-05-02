@@ -42,12 +42,11 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 | Page | Status | Evidence |
 | :--- | :---: | :---: |
 | Home | :heavy_check_mark: | [Home Page Validation](documentation/testing/validation/html/home.PNG) |
-| Blog Detail | ![Blog Detail Validation](documentation/testing/lighthouse/desktop/blog-detail-desktop.PNG) |
 | About | :heavy_check_mark: | [About Page Validation](documentation/testing/validation/html/about.PNG) |
 | Terms of Use | :heavy_check_mark: | [Terms Page Validation](documentation/testing/validation/html/terms.PNG) |
 | Register | :grey_exclamation: | [Register Page Validation](documentation/testing/validation/html/signup-errors.PNG) |
 | Login | :heavy_check_mark: | [Login Page Validation](documentation/testing/validation/html/login.PNG) |
-| Logout |  | [Logout Page Validation](documentation/testing/validation/html) |
+| Logout |  | [Logout Page Validation](documentation/testing/validation/html/logout.PNG) |
 ||||
 
 - See documented bugs for more information on Registration.
