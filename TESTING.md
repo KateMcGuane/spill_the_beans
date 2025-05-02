@@ -42,10 +42,12 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 | Page | Status | Evidence |
 | :--- | :---: | :---: |
 | Home | :heavy_check_mark: | [Home Page Validation](documentation/testing/validation/html/home.PNG) |
+| Blog Detail | ![Blog Detail Validation](documentation/testing/lighthouse/desktop/blog-detail-desktop.PNG) |
 | About | :heavy_check_mark: | [About Page Validation](documentation/testing/validation/html/about.PNG) |
+| Terms of Use | :heavy_check_mark: | [Terms Page Validation](documentation/testing/validation/html/terms.PNG) |
 | Register | :grey_exclamation: | [Register Page Validation](documentation/testing/validation/html/signup-errors.PNG) |
 | Login | :heavy_check_mark: | [Login Page Validation](documentation/testing/validation/html/login.PNG) |
-| Terms of Use | :heavy_check_mark: | [Terms Page Validation](documentation/testing/validation/html/terms.PNG) |
+| Logout |  | [Logout Page Validation](documentation/testing/validation/html) |
 ||||
 
 - See documented bugs for more information on Registration.
@@ -57,7 +59,7 @@ All outlined testing was done upon completion of this project. Please see Bugs f
 
 | Filepath | Status | Evidence |
 | :--- | :---: | :---: |
-| static/base.css | :heavy_check_mark: | [static/base.css validation](documentation/testing/validation/css/w3c-css-validation.PNG)  |
+| static/css/style.css | :heavy_check_mark: | [static/css/style.css validation](documentation/testing/validation/css/w3c-css-validation.PNG)  |
 
 
 ### JavaScript
@@ -112,12 +114,13 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 | Page | Result |
 | :--- | :--- |
 | Home Page | ![Home Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/home-desktop.PNG) |
-| About Page | ![About Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/about-desktop.PNG) |
 | Blog Detail Page | ![Blog Detail Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/blog-detail-desktop.PNG) |
+| About Page | ![About Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/about-desktop.PNG) |
+| Terms of Use Page | ![Terms of Use Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/terms-desktop.PNG) |
 | Register Page | ![Register Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/register-desktop.PNG) |
 | Login Page | ![Login Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/login-desktop.PNG) |
-| Logout Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/desktop/logout-desktop.PNG) |
-| Terms of Use Page | ![Terms of Use Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/terms-desktop.PNG) |
+| Logout Page | ![Logout Desktop Lighthouse Testing](documentation/testing/lighthouse/desktop/logout-desktop.PNG) |
+
 
 
 
@@ -126,12 +129,12 @@ Google's Lightouse was used to test the performance, accessibility, best practic
 | Page | Result |
 | :--- | :--- |
 | Home Page | ![Home Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/home-mobile.PNG) |
-| About Page | ![About Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/about-mobile.PNG) |
 | Blog Detail Page | ![Blog Detail Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/blog-detail-mobile.PNG) |
+| About Page | ![About Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/about-mobile.PNG) |
+| Terms of Use Page | ![Terms of Use Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/terms-mobile.PNG) |
 | Register Page | ![Register Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/register-mobile.PNG) |
 | Login Page | ![Login Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/login-mobile.PNG) |
-| Logout Page | ![Sign Out Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/logout-mobile.PNG) |
-| Terms of Use Page | ![Terms of Use Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/terms-mobile.PNG) |
+| Logout Page | ![Logout Mobile Lighthouse Testing](documentation/testing/lighthouse/mobile/logout-mobile.PNG) |
 
 
 ---
@@ -144,12 +147,13 @@ WAVE(Web Accessibility Evaluation Tool) allows developers to create content that
 | Page | Errors | Evidence |
 | :--- | :--- | :--- |
 | Home Page | No errors | [Home Page Wave](documentation/testing/wave/home.PNG) |
-| About Page | No errors | [About Page Wave](documentation/testing/wave/about.PNG) |
 | Blog Detail Page | No errors | [Blog Detail Page Wave](documentation/testing/blog-detail.PNG) | 
+| About Page | No errors | [About Page Wave](documentation/testing/wave/about.PNG) |
+| Terms of Use Page | No errors | [Terms Page Wave](documentation/testing/wave/terms.PNG) |
 | Register Page | No errors | [Register Page Wave](documentation/testing/wave/register.PNG) |
 | Login Page | No errors | [Login Page Wave](documentation/testing/wave/login.PNG) |
 | Logout Page | No errors | [Logout Page Wave](documentation/testing/wave/logout.PNG) |
-| Terms of Use Page | No errors | [Terms Page Wave](documentation/testing/wave/terms.PNG) |
+
 
 
 ---
@@ -195,34 +199,42 @@ Further documentation for developing these user stories can be found through my 
 | Register | Redirects user to Registration page. | Ensure another navbar tab is clicked. Click Register tab. | Redirects correctly. | :heavy_check_mark: |
 | Login | Redirects user to Login page. | Ensure another navbar tab is clicked. Click Login tab. | Redirects correctly. | :heavy_check_mark: |
 | Logout | Redirects user to Logout page. | Ensure another navbar tab is clicked. Click Logout tab. | Redirects correctly. | :heavy_check_mark: |
+| Navbar Responsiveness | Navbar should be displayed using a hamburger menu toggle on smaller screens. | Checked the site on smaller screens. | Navbar is displayed using a hamburger menu toggle. | :heavy_check_mark: |
 ||||||
 | **FOOTER** |
 | Social Media Icons | Open the social page in a new browser tab. | Clicked each icon. | Social page opened in a new browser tab. | :heavy_check_mark: |
+| Social Icon Responsiveness | The icons adjust size depending on large or small screen. |  Checked site's responsiveness using Dev Tools. | :heavy_check_mark: |
 | Kate McGuane Link | Takes the user to my Github Profile in a new browser tab. | Clicked link. | Github profile opened in a new tab. | :heavy_check_mark: |
 | Footer Responsiveness | The footer sections should become stacked on smaller screens. | Looked at site on smaller screens. | Sections of footer became stacked. | :heavy_check_mark: |
 ||||||
 | **HOME (BLOG) PAGE** |||||
-| Blog Posts | Click "Next" or "Prev" to move between blog post pages. | Click desired buttons. | The next or previous page of blog posts are displayed & redirect as desired. | :heavy_check_mark: |
+| Blog Posts (Pagination) | Click "Next" or "Prev" to move between blog post pages. | Click desired buttons. | The next or previous page of blog posts are displayed & redirect as desired. | :heavy_check_mark: |
 |  | Click on blog post title to view the entire post. | Click blog post title. | Redirected to desired blog post. | :heavy_check_mark: |
-|  | Can click on comments to view full thread (where applicable). | Click comments icon. |  |
-|  | Can login from bottom of blog post. | Click 'Login to leave a comment'. | Redirected to login page. |  |
+||||||
+| **BLOG DETAIL PAGE** |||||
+| Blog Post | Can login from bottom of blog post. | Click 'Login to leave a comment'. | Redirected to login page. | :heavy_check_mark: |
 ||||||
 | **ABOUT PAGE** |||||
-| Collaboration Form | Form will not submit if required fields are not filled. | Click "Submit" without filling required fields. | Submission would not work unless all required fields were filled. |  |
-| | Form is submitted when filled out & Submit button is clicked. | Fill out form & click "Submit". | Notified that form has been submitted. |  |
+| Collaboration Form | Form will not submit if required fields are not filled. | Click "Submit" without filling required fields. | Submission would not work unless all required fields were filled. | :heavy_check_mark: |
+| | Form is submitted when filled out & Submit button is clicked. | Fill out form & click "Submit". | Notified that form has been submitted. | :heavy_check_mark: |
+||||||
+| **TERMS OF USE PAGE** | 
+| Personalised Link | Redirects user to About page. | Click "click here" within text. | Redirects correctly. | :heavy_check_mark: |
 ||||||
 | **REGISTRATION PAGE** |||||
-| Sign Up | Sign up to the website. | Filled out required fields & click "Sign Up". | Notified of successful registration to website upon completion of required fields. |  |
-| | Refusal of registration if required fields not filled out. | Did not fill in all or some required fields. | Registration refused, & reminded of requirements in order to register. |  |
-| | Refusal of registration if password criteria is not met. | Did not meet password criteria. | Registration refused, & reminded of password criteria in order to register. |  |
+| Sign Up | Sign up to the website. | Filled out required fields & click "Sign Up". | Notified of successful registration to website upon completion of required fields. | :heavy_check_mark: |
+| | Refusal of registration if required fields not filled out. | Did not fill in all or some required fields. | Registration refused, & reminded of requirements in order to register. | :heavy_check_mark: |
+| | Refusal of registration if password criteria is not met. | Did not meet password criteria. | Registration refused, & reminded of password criteria in order to register. | :heavy_check_mark: |
+| Login prompt | User already has an account and wishes to login. | Clicked built-in "Sign in here" link. | Redirected to Login page instead. | :heavy_check_mark: |
 ||||||
 | **LOGIN PAGE** |||||
-| Login to account | Upon successfully filling out all required fields, the user is signed in to their account. | Filled out required fields & clicked "Log In" button. | Login was successful. |
-| Refused Login. | Left required fields empty or entered in the wrong information. | Login refused, & user is informed of what steps to take in order to rectify the issue. |  |
-| Register account | User does not have an account and wishes to create one. | Clicked build in "Sign Up" link. | Redirected to registration page instead. |  |
+| Login to account | Upon successfully filling out all required fields, the user is signed in to their account. | Filled out required fields & clicked "Log In" button. | Login was successful. | :heavy_check_mark: |
+| Refused Login. | Left required fields empty or entered in the wrong information. | Login refused, & user is informed of what steps to take in order to rectify the issue. | :heavy_check_mark: |
+| Register account | User does not have an account and wishes to create one. | Clicked built-in "Sign Up" link. | Redirected to Registration page instead. | :heavy_check_mark: |
 ||||||
-| **TERMS OF USE PAGE** | Redirects user to **Custom** page. | Ensure another navbar tab is clicked. Click **Custom** tab. | Redirects correctly. |  |
-| Navbar Responsiveness | Navbar should be displayed using a hamburger menu toggle on smaller screens. | Checked the site on smaller screens. | Navbar is displayed using a hamburger menu toggle. |  |
+| **LOGOUT PAGE** |||||
+| Logout of account | The user can sign out of their account. | Click "Sign Out" when prompted. | Logout was successful. | :heavy_check_mark: |
+||||||
 
 
 **NOT_SURE_IF_I_WILL_TEST_ALL_OF_THESE_FEATURES_FOR_THIS_WEBSITE**
