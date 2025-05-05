@@ -239,28 +239,6 @@ Further documentation for developing these user stories can be found through my 
 ---
 
 
-## Responsiveness
-
-The website was tested manually throughout the project development using DevTools to check for responsiveness.
-
-The responsiveness was confirmed with [Responsive Website Design Tester](https://responsivedesignchecker.com/). The following are samples of some of the responsiveness implemented.
-
-
-  ### Desktop Screens
-  ![Desktop Responsiveness](documentation/testing/responsiveness/desktop_responsiveness.gif)
-
-
-  ### Tablet Screens
-  ![Tablet Responsiveness](documentation/testing/responsiveness/tablet_responsiveness.gif)
-
-
-  ### Mobile Screens
-  ![Mobile Responsiveness](documentation/testing/responsiveness/mobile_responsiveness.gif)
-
-
----
-
-
 ## Broswer Compatibility
 
 The website was tested on three different browsers: Brave, Chrome, & Microsoft Edge. It was compatable across all three.
@@ -272,16 +250,15 @@ The following elements were tested manually on each of the browsers:
 
 
   ### Brave
-  ![Brave](testing/browser/brave_browser.gif)
+  ![Brave](documentation/testing/browser/brave-compatibility.gif)
 
 
   ### Chrome
-  ![Chrome](testing/browser/chrome_browser.gif)
+  ![Chrome](documentation/testing/browser/chrome-compatibility.gif)
 
 
   ### Microsoft Edge
-  ![Microsoft Edge](testing/browser/microsoft_edge_browser.gif)
-
+  ![Microsoft Edge](documentation/testing/browser/edge-compatibility.gif)
 
 ---
 
