@@ -46,7 +46,7 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
 
   ### Colour Scheme
 
-  The following colours were used for this website design. The first colour palette ofrmes the lighter, more subtle colours for optimal contrast against the darker. The second colour palette showcases a selection of rich earthy tones. Both palettes reflect the theme of the page are in keeping with the colours found in the imagery.
+  The following are the majority of colours that were used for this website design. The first colour palette ofrmes the lighter, more subtle colours for optimal contrast against the darker. The second colour palette showcases a selection of rich earthy tones. Both palettes reflect the theme of the page are in keeping with the colours found in the imagery.
   
   <br>
 
@@ -143,7 +143,7 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
   | Database | Create stronger relationships through the various models. |
   | Photo Gallery | Featured on the About page in carousel format. |
   | 404 Page | Add custom 404 page. |
-  | Recipes | Isolate the blog types into two different sections of the blog within the navigation bar. |
+  | Recipes | Isolate the blog types into at least two different sections of the blog within the navigation bar. |
   | E-commerce | Integrating e-commerce to the website, selling products that are coffee adjacent. Hopefully this would afford the blog to run ad-free, thereby making it a more enjoyable user experience. |
   | Navigation Bar | With the addition of more offerings to the website, the 'Home' navbar would be replaced with 'Blogs', and separate out the different types of blogs by category. |
 
@@ -267,10 +267,126 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
   2. Open the settings tab and create a new config var of DATABASE_URL and paste the database URL you copied from elephantSQL into the value (the value should not have quotation marks around it).
 
   ##### Preparation for Deployment with VS Code
-  [Consult](https://github.com/kera-cudmore/seaside-sewing/blob/main/README.md)
+
+  - It is on the developers' discretion to ignore steps where they may already have been established.
+
+1. Install dj_database_url and psycopg2 (they are both needed for connecting to the external database you've just set up):
+
+   ```bash
+   pip3 install dj_database_url==0.5.0 psycopg2
+   ```
+
+2. Update your requirements.txt file with the packages just installed:
+
+    ```bash
+    pip3 freeze > requirements.txt
+    ```
+
+3. In settings.py underneath import os, add `import dj_database_url`
+
+4. Find the section for DATABASES and comment out the code. Add the following code below the commented out database block, and use the URL copied from elephantSQL for the value:
+
+    (NOTE! don't delete the original section, as this is a temporary step whilst we connect the external database. Make sure you don't push this value to GitHub - this value should not be saved to GitHub, it will be added to the Heroku config vars in a later step, this is temporary to allow us to migrate our models to the external database)
+
+    ```python
+    DATABASES = {
+        'default': dj_database_url.parse('paste-postgres-db-url-here')
+    }
+    ```
+
+5. In the terminal, run the show migrations command to confirm connection to the external database:
+
+    ```bash
+    python3 manage.py runserver
+    ```
+
+6. If you have connected the database correctly you will see a list of migrations that are unchecked. You can now run migrations to migrate the models to the new database:
+
+    ```bash
+    python3 manage.py migrate
+    ```
+
+7. Create a superuser for the new database. Input a username, email and password when directed.
+
+    ```bash
+    python3 manage.py createsuperuser
+    ```
+
+8. You should now be able to go to the browser tab on the left of the page in elephantsql, click the table queries button and see the user you've just created by selecting the auth_user table.
+
+9. We can now add an if/else statement for the databases in settings.py, so we use the development database while in development (the code we commented out) - and the external database on the live site (note the change where the db URL was is now a variable we will use in Heroku):
+
+    ```python
+    if 'DATABASE_URL' in os.environ:
+        DATABASES = {
+          'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+        }
+    else:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
+          }
+        }
+    ```
+
+10. Install gunicorn which will act as our webserver and freeze this to the requirements.txt file:
+
+    ```bash
+    pip3 install gunicorn
+    pip3 freeze > requirements.txt
+    ```
+
+11. Create a `Procfile` in the root directory. This tells Heroku to create a web dyno which runs gunicorn and serves our django app. Add the following to the file (making sure not to leave any blank lines underneath):
+
+    ```Procfile
+    web: gunicorn coffee.wsgi
+    ```
+
+12. Log into the Heroku CLI in the terminal and then run the following command to disable collectstatic. This command tells Heroku not to collect static files when we deploy:
+
+    ```bash
+    heroku config:set DISABLE_COLLECTSTATIC=1 --app heroku-app-name-here
+    ```
+
+13. We will also need to add the Heroku app and localhost (which will allow GitPod to still work) to ALLOWED_HOSTS = [] in settings.py:
+
+    ```python
+    ALLOWED_HOSTS = ['{heroku deployed site URL here}', 'localhost' ]
+    ```
+
+14. Save, add, commit and push the changes to GitHub. You can then also initialize the Heroku git remote in the terminal and push to Heroku with:
+
+    ```bash
+    heroku git:remote -a {app name here}
+    git push heroku master
+    ```
+
+15. You should now be able to see the deployed site (without any static files as we haven't set these up yet).
+
+16. To enable automatic deploys on Heroku, go to the deploy tab and click the connect to GitHub button in the deployment method section. Search for the projects repository and then click connect. Click enable automatic deploys at the bottom of the page.
 
   ##### Generate a SECRET KEY & Updating Debug
-  [Consult](https://github.com/kera-cudmore/seaside-sewing/blob/main/README.md)
+
+  1. Django automatically sets a secret key when you create your project, however we shouldn't use this default key in our deployed version, as it leaves our site vulnerable. We can use a random key generator to create a new SECRET_KEY which we can then add to our Heroku config vars which will then keep the key protected.
+
+2. [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) is an example of a site we could use to create our secret key. Create a new key and copy the value.
+
+3. In Heroku settings create a new config var with a key of `SECRET_KEY`. The value will be the secret key we just created. Click add.
+
+4. In settings.py we can now update the `SECRET_KEY` variable, asking it to get the secret key from the environment, or use an empty string in development:
+
+    ```python
+    SECRET_KEY = os.environ.get('SECRET_KEY', ' ')
+    ```
+
+5. We can now adjust the `DEBUG` variable to only set DEBUG as true if in development:
+
+    ```python
+    DEBUG = 'DEVELOPMENT' in os.environ
+    ```
+
+6. Save, add, commit and push these changes.
 
 
   ### Local Development
