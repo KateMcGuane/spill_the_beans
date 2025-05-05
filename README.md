@@ -259,12 +259,12 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
 
   This database was created using [Code Institue's Database Maker](https://dbs.ci-dbs.net/).
   1. Input email to create a database.
-  2. The email confirmation sent will hold the URL for the Code Institute Postgres Database server.
+  2. The email confirmation sent will hold the URL for the Code Institute PostgresSQL Database server.
   3. The email will contain a link for managing your databases.
 
   ##### Heroku App Setup
   1. Set up the Heroku app from the inital setup.
-  2. Open the settings tab and create a new config var of DATABASE_URL and paste the database URL you copied from elephantSQL into the value (the value should not have quotation marks around it).
+  2. Open the settings tab and create a new config var of DATABASE_URL and paste the database URL you copied from PostgresSQL into the value (the value should not have quotation marks around it).
 
   ##### Preparation for Deployment with VS Code
 
@@ -284,7 +284,7 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
 
 3. In settings.py underneath import os, add `import dj_database_url`
 
-4. Find the section for DATABASES and comment out the code. Add the following code below the commented out database block, and use the URL copied from elephantSQL for the value:
+4. Find the section for DATABASES and comment out the code. Add the following code below the commented out database block, and use the URL copied from PostgreSQL for the value:
 
     (NOTE! don't delete the original section, as this is a temporary step whilst we connect the external database. Make sure you don't push this value to GitHub - this value should not be saved to GitHub, it will be added to the Heroku config vars in a later step, this is temporary to allow us to migrate our models to the external database)
 
@@ -312,7 +312,7 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
     python3 manage.py createsuperuser
     ```
 
-8. You should now be able to go to the browser tab on the left of the page in elephantsql, click the table queries button and see the user you've just created by selecting the auth_user table.
+8. You should now be able to go to the browser tab on the left of the page in PostgreSQL, click the table queries button and see the user you've just created by selecting the auth_user table.
 
 9. We can now add an if/else statement for the databases in settings.py, so we use the development database while in development (the code we commented out) - and the external database on the live site (note the change where the db URL was is now a variable we will use in Heroku):
 
