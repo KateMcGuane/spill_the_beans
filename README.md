@@ -46,12 +46,12 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
 
   ### Colour Scheme
 
-  The following colours were used for this website design. Colour Palette 1 forms the base colours of the website, with a selection of rich earthy tones, and subtle neutrals.<br> Colour Palette 2 was used for highlighting and bringing optimum contrast of colours to the more neutral palette.
+  The following colours were used for this website design. The first colour palette ofrmes the lighter, more subtle colours for optimal contrast against the darker. The second colour palette showcases a selection of rich earthy tones. Both palettes reflect the theme of the page are in keeping with the colours found in the imagery.
   
   <br>
 
-  ![Coffee Colour Palette 1](documentation/readme/design/coffee-palette-1.PNG)
-  ![Coffee Colour Palette 2](documentation/readme/design/coffee-palette-2.PNG)
+  ![Coffee Colour Palette 1](documentation/readme/design/coffee-palette-light.PNG)
+  ![Coffee Colour Palette 2](documentation/readme/design/coffee-palette-rich.PNG)
 
   Both colour palettes were created using the [Coolors](https://coolors.co/) website.
 
@@ -199,7 +199,6 @@ Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/
 
   ### Programs
 
-  - [Am I Responsive?](http://ami.responsivedesign.is/) - To demonstrate the website on a range of devices.
   - [Balsamiq](https://balsamiq.com/) - To create wireframes.
   - [Canva](https://www.canva.com/) - To create favicon image.
   - [Chat GPT](https://chat.openai.com/) - To create written content & general consultation when troubleshooting.
