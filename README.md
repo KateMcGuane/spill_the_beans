@@ -37,7 +37,14 @@ The target audience for this coffee blog is for those who is passionate about co
 
 ### Agile
 
-Please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/views/1) for my use of agile methodology.
+As the project progressed through various stages of development, the Agile methodology became increasingly valuable. The iterative nature of Agile allowed me to adapt quickly to changes, refine features based on ongoing feedback, and better manage time across development sprints. Each iteration served not just as a milestone, but as an opportunity to reflect, reassess, and re-prioritise tasks according to evolving project needs.
+
+Throughout the process, I relied extensively on structured notes and task tracking to maintain continuity between sessions. These notes acted as a critical anchor, helping me resume work efficiently and stay focused on immediate priorities without losing sight of the broader project scope.
+
+By the project's completion, my understanding of Agile had grown considerably. I now feel much more confident in applying Agile to future projects, particularly in terms of managing scope, setting realistic goals, and maintaining momentum over time.
+
+
+For a detailed look at how I implemented Agile practices during development, please see my [Github Projects](https://github.com/users/KateMcGuane/projects/3/views/1).
 
 ---
 
