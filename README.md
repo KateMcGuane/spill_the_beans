@@ -98,8 +98,14 @@ For a detailed look at how I implemented Agile practices during development, ple
 
 #### Contact Form
 ![contact Form Desktop](documentation/readme/wireframes/contact-form-desktop.png)
-![contact Form Desktop](documentation/readme/wireframes/contact-form-tablet.png)
-![contact Form Desktop](documentation/readme/wireframes/contact-form-mobile.png)
+![contact Form Tablet](documentation/readme/wireframes/contact-form-tablet.png)
+![contact Form Mobile](documentation/readme/wireframes/contact-form-mobile.png)
+
+#### Terms of Use
+![Terms of Use Desktop](documentation/readme/wireframes/terms-desktop.png)
+![Terms of Use Tabletp](documentation/readme/wireframes/terms-tablet.png)
+![Terms of Use Mobile](documentation/readme/wireframes/terms-mobile.png)
+
 
 #### Login
 ![Login Desktop](documentation/readme/wireframes/login-desktop.png)
