@@ -7,7 +7,7 @@ The deployed site, [Spill The Beans](https://spill-the-beans-coffee-blog-8f04f8c
 ## User Experience
 
 ### Target Audience
-The target audience for this coffee blog is for those who is passionate about coffee and eager to deepen their knowledge. It appeals to a variety of people who have different levels of interest, knowledge or skills. The blog aims to enrich readers' understanding of coffee and foster a community of like-minded individuals who share this interest.
+The target audience for this coffee blog is for those who are passionate about coffee and eager to deepen their knowledge. It appeals to a variety of people who have different levels of interest, knowledge or skills. The blog aims to enrich readers' understanding of coffee and foster a community of like-minded individuals who share this interest.
 
 
 ### User Stories
